@@ -2,34 +2,21 @@
   "basics": {
     "name": "Patrick Molligo",
     "label": "Economist",
-    "email": "pmolligo@gmail.com",
     "location": {
       "address": "California Center for Population Research - UCLA",
       "postalCode": "CA 90095",
       "city": "Los Angeles",
       "countryCode": "US",
       "region": "California"
-    }
-  },
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker",
-      "icon": ""
     },
-    {
-      "language": "German",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
+    "language": "English, German"
+  },
   "education": [
     {
       "institution": "UCLA",
       "location": "Los Angeles, CA",
       "area": "Economics",
       "studyType": "Ph.D.",
-      "startDate": "2020",
       "endDate": "2026"
     },
     {
