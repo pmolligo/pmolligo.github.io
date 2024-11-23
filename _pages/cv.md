@@ -6,6 +6,4 @@ nav: true
 nav_order: 3
 cv_pdf: Molligo_CV_PHD_website.pdf
 description: 
-toc:
-  sidebar: left
 ---
