@@ -16,7 +16,10 @@
       year: 2026
       description:
         - Applied Microeconomics, Economic History 
-        - Dissertation - "Did the G.I. Bill increase vocational education after WWII?" (Chair - Dora Costa)
+        -- Dissertation - "Did the G.I. Bill increase vocational education after WWII?"
+        - title: 
+          contents:
+            - Chair - Dora Costa
     - title: M.A. in Economics
       institution: UCLA, Los Angeles, CA
       year: 2022
