@@ -7,7 +7,7 @@ subtitle:
 profile:
   align: center
   image: ccpr_headshot.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>California Center for Population Research</p>
     <p>4284 Public Affairs Bldg.</p>
