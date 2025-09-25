@@ -17,5 +17,7 @@ Econ 104: Data Science for Economists
 
 Econ 11: Intermediate Microeconomics
 
+Econ 105: Introduction to Mathematical Economics
+
 Econ 97: Economics Toolkit
 
