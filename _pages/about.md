@@ -19,7 +19,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a sixth-year Ph.D. candidate in Economics at UCLA, specializing in labor economics and economic history. My research examines the development of vocational education in the United States over the past century.
+I am a sixth-year Ph.D. candidate in Economics at UCLA, specializing in applied microeconomics with a focus on labor and economic history. My research examines the development of vocational education in the United States over the past century. I use causal inference and historical data methods to measure how U.S. policies have shaped access to and returns from non-college training pathways. My dissertation centers on the G.I. Bill—the first national program to subsidize individual trade-school enrollment—and the resulting shifts in educational choice, labor market outcomes, and racial disparities. 
 
-My dissertation studies the impact of the G.I. Bill on veterans’ participation in vocational training following World War II and the Korean War. While prior work has focused on the G.I. Bill’s effects on college enrollment, less is known about its influence on alternative post-secondary training. Using variation in the likelihood of military service across birth cohorts, I estimate the joint effects of military service and G.I. Bill subsidies on vocational school completion. The results indicate that the G.I. Bill significantly expanded access to job-oriented education, broadening its legacy beyond traditional higher education and shaping veterans’ long-term career paths.
+For my job market paper [click here].
+
+[click here]: https://drive.google.com/file/d/1kaseugPWQGdMpUq-MzZZrXd3p8b95iUn/view?usp=drive_link
 
