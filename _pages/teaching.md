@@ -21,9 +21,10 @@ Econ 105: Introduction to Mathematical Economics
 
 Econ 97: Economics Toolkit
 <br>
-**Summary of Student Evalutations**
 <br>
-
+<u>**Summary of Student Evaluations**</u>
+Full evaluations available upon request
+<br>
 |     Term                        |     Course                                                                              |     Response rate    |     Course rating    |
 |---------------------------------|-----------------------------------------------------------------------------------------|----------------------|----------------------|
 |     2021 Fall\*                  |     Probability and   Statistics for Economists      (Undergraduate)                    |     28%              |     8.86/9           |
@@ -40,3 +41,28 @@ Econ 97: Economics Toolkit
 
 <br>
 \* Received "Best Teaching Award" for the 2021-22 year
+<br>
+**Selected Student Comments**
+|                                                                                                                                                                                                                                                                 |   |   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
+|     Patrick   did an excellent job conveying difficult and complex information down to its   fundamental components. It was incredibly easy to follow very complicated   topics… his explanatory skills and section were invaluable to the overall   course.    |   |   |
+|     I   have never had a better TA. Patrick is the most attentive, intelligent, and   responsive TA. He genuinely cares so much about us and never made any of our   questions feel insignificant.                                                              |   |   |
+|     Patrick   was beyond helpful, caring, and extremely knowledgeable of the class. At some   points, I think he taught the material better than the professor.                                                                                                 |   |   |
+|     He   has a gift when it comes to explaining difficult topics. Patrick deserves   recognition for his hard work, time, effort, and knowledge of the subject.                                                                                                 |   |   |
+|     Patrick   was excellent at presenting information and clarifying any confusion along   the way. He really made sure his students understood the material and how to   apply it.                                                                             |   |   |
+|     He   always went above and beyond to make sure students understood and felt   capable of the difficult material.                                                                                                                                            |   |   |
+|     Patrick   was very responsive to emails, which aided my understanding greatly. His   sections and office hours were very helpful, and he is just overall a great   person.                                                                                  |   |   |
+|     He   livestreamed and recorded sections on Zoom, added additional office hours,   and hosted exam review sessions outside of class time. Patrick cares deeply   about his students.                                                                         |   |   |
+|     He   was extremely welcoming and open during office hours and helped me with   project questions or any questions about the content itself.                                                                                                                 |   |   |
+|     Patrick   was always prepared for section and provided many examples that helped to   expand on the material. He was very open when students had questions and   responded to emails very quickly.                                                          |   |   |
+|     Very   good at simplifying complex topics. Great TA and learned a lot from him.                                                                                                                                                                             |   |   |
+|     Patrick’s   TA sections were very informative and helpful. He provided us with very   organized lecture notes and went over examples each week which were very   useful.                                                                                    |   |   |
+|     The   instructor was amazing! One of his best strengths was his explanation of   specific topics. Whenever someone had a question, he answered it thoughtfully   and clearly.                                                                               |   |   |
+|     He   was very detailed in explaining concepts — far more precise and detailed than   the professor.                                                                                                                                                         |   |   |
+|     Really   good at giving students everything they need, providing lots of learning   material. Very strong overall!                                                                                                                                          |   |   |
+|     This   professor was always super welcoming and made asking questions seem not so   intimidating. Patrick would never make a student feel stupid or dumb if they   didn’t understand the concept the first time.                                            |   |   |
+|     Patrick’s   strengths are his ability to bring a class of 70 students together and ensure   that they receive as much value as possible. He always answered any questions   and cleared up all confusion.                                                   |   |   |
+|     He   was flexible and always ready to set up extra office hours or meetings   whenever I needed help.                                                                                                                                                       |   |   |
+|     I   am simply obsessed with Patrick. He was one of, if not the best, TAs I’ve had   at UCLA. He made everything make so much sense and really calmed everybody   down after each lecture.                                                                   |   |   |
+|     Patrick   did an amazing job and genuinely cared for his students. I hope I can be a   student in his TA section once again.                                                                                                                                |   |   |
+
