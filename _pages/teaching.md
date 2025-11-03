@@ -20,7 +20,9 @@ Econ 11: Intermediate Microeconomics
 Econ 105: Introduction to Mathematical Economics
 
 Econ 97: Economics Toolkit
-
+<br>
+**Summary of Student Evalutations**
+<br>
 
 |     Term                        |     Course                                                                              |     Response rate    |     Course rating    |
 |---------------------------------|-----------------------------------------------------------------------------------------|----------------------|----------------------|
@@ -36,5 +38,5 @@ Econ 97: Economics Toolkit
 |     2025 Spring                 |     Data Science for   Economists (Undergraduate)                                       |      28%             |      8.2/9           |
 |     2025 Fall, in   progress    |     Introduction to   Mathematical Economics      (Solo instructor;   Undergraduate)    |     -                |     -                |
 
-
+<br>
 \* Received "Best Teaching Award" for the 2021-22 year
