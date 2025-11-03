@@ -23,8 +23,10 @@ Econ 97: Economics Toolkit
 <br>
 <br>
 <u>**Summary of Student Evaluations**</u>
+
 Full evaluations available upon request
 <br>
+
 |     Term                        |     Course                                                                              |     Response rate    |     Course rating    |
 |---------------------------------|-----------------------------------------------------------------------------------------|----------------------|----------------------|
 |     2021 Fall\*                  |     Probability and   Statistics for Economists      (Undergraduate)                    |     28%              |     8.86/9           |
@@ -41,6 +43,7 @@ Full evaluations available upon request
 
 <br>
 \* Received "Best Teaching Award" for the 2021-22 year
+<br>
 <br>
 **Selected Student Comments**
 <br>
