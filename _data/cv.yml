@@ -37,40 +37,46 @@
       institution: UCLA - Los Angeles, CA
       year: 2021-present
       description:
-        - Achieved award for excellence in teaching through top-rated student evaluations (2022)
-        - Designed & led a mathematics refresher course tailored for transfer students to bridge academic gaps
-        - Taught diverse courseload including probability & statistics, econometrics, data science, principles of economics, and microeconomics
+        - Awarded departmental recognition for excellence in teaching based on top-rated student evaluations.
+        - Designed and led a mathematics refresher course for transfer students; success secured alumni funding for future years.
+        - Taught statistics, econometrics, data science, and microeconomics to diverse undergraduate classes.
+
 
     - title: Summer Associate Intern
       institution: Analysis Group - Los Angeles, CA
       year: 2025
       description:
-        - Conducted regression analysis for expert witness reports in antitrust/anticompetition lawsuits
-        - Authored memos summarizing expert merits reports and making econometric critiques of opposing arguments
-        - Casework areas - antitrust, intellectual property and patent infringement, ERISA
+        - Leveraged opposing expert's regression model to reduce client damage estimates by several million dollars.
+        - Contributed econometric critiques to expert rebuttal reports in two class action lawsuits under strict deadlines.
+        - Researched and prepared client-facing presentation material to support business development in new litigation areas.
+        - Casework areas - antitrust, intellectual property and patent infringement, ERISA.
         
     - title: Research Assistant
       institution: Luskin School of Public Affairs, UCLA - Los Angeles, CA
       year: 2022-2024
       description:
-        - Executed data analysis for an NIH-funded study assessing pollution's health impacts on soldiers
-        - Created novel pollution exposure profiles based on military base assignments to link with restricted medical data
-        - Enhanced project's impact by demonstrating causal pollution effects through randomization tests, surpassing correlation-based approaches in related literature
+        - Conducted data analysis for an NIH-funded study assessing the health impacts of pollution on U.S. soldier populations.
+        - Constructed novel pollution exposure measures linkable to restricted medical records.
+        - Identified causal effects of pollution on health outcomes using quasi-random variation in exposure.
+
 
     - title: Senior Research Assistant
       institution: Federal Reserve Board - Washington, D.C.
       year: 2018-2020
       description:
-        - Innovated a Python-based text analysis tool to generate policy uncertainty indices from conference call transcripts and historical newspapers
-        - Provided critical analysis and exhibits for FOMC briefings, directly informing Fed policy announcements      
+        - Developed a text analysis tool with Python to construct policy uncertainty indices from earnings calls and newspapers.
+        - Produced empirical analysis and exhibits for FOMC briefings, directly informing monetary policy deliberations.
+        - Co-author, "The Economic Effects of Trade Policy Uncertainty", Journal of Monetary Economics (2020). Research cited by The New York Times, Wall Street Journal, Bloomberg, Reuters, and others.
+    
 
     - title: Business Development Analyst
       institution: Jaemacom, GmbH - Berlin, Germany
       year: 2017-2028
       description:
-        - Conducted comprehensive market analysis of Austrian, Swiss, and British regions to drive international business expansion strategies
-        - Redesigned process to triage tech support tickets using Excel VBA
-        - Translated software UI and user manuals into German
+        - Researched competition and market demand to support international expansion outside Germany.
+        - Automated technical support workflows using Excel VBA, saving ~5 hours per week. 
+        - Translated software interfaces and user manuals between German and English.
+
 
 
 - title: Honors and Awards
