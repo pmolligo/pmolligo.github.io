@@ -21,4 +21,4 @@ social: true # includes social icons at the bottom of the page
 
 I am a Visiting Assistant Professor of Economics at Penn State University (Fall 2026--Spring 2028). My research interests include applied microeconmics and economic history.
 
-I received my Ph.D. in economics at UCLA in 2025. 
+I received my Ph.D. in Economics at UCLA in June 2026. 
