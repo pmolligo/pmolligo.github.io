@@ -19,9 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a sixth-year Ph.D. candidate in Economics at UCLA, specializing in applied microeconomics with a focus on labor and economic history. My research examines the development of vocational education in the United States over the past century. I use causal inference and historical data methods to measure how U.S. policies have shaped access to and returns from non-college training pathways. My dissertation centers on the G.I. Bill—the first national program to subsidize individual trade-school enrollment—and the resulting shifts in educational choice, labor market outcomes, and racial disparities. 
+I am a Visiting Assistant Professor of Economics at Penn State University (Fall 2026--Spring 2028). My research interests include applied microeconmics and economic history.
 
-For my job market paper [click here].
-
-[click here]: https://drive.google.com/file/d/1kaseugPWQGdMpUq-MzZZrXd3p8b95iUn/view?usp=drive_link
-
+I received my Ph.D. in economics at UCLA in 2025. 
