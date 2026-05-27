@@ -16,7 +16,7 @@
       year: 2026
       description:
         - Applied Microeconomics, Economic History 
-        - Dissertation - "Did the G.I. Bill increase vocational education after WWII?"
+        - Dissertation - "Essays on Economic History"
         - title: Committee 
           contents:
             - Dora Costa (chair), Martha Bailey, Maurizio Mazzocco, Daniel Haanwinckel
@@ -30,12 +30,19 @@
       institution: Cornell University, Ithaca, NY
       year: 2015  
 
+
 - title: Experience
   type: time_table
   contents:
+    - title: Visiting Assistant Professor of Economics
+      institution: Pennsylvania State University - State College, PA
+      year: 2026-present
+      description:
+        -
+
     - title: Teaching Assistant
       institution: UCLA - Los Angeles, CA
-      year: 2021-present
+      year: 2021-2026
       description:
         - Awarded departmental recognition for excellence in teaching based on top-rated student evaluations.
         - Designed and led a mathematics refresher course for transfer students; success secured alumni funding for future years.
