@@ -36,4 +36,4 @@ format:
     link-external-newwindow: true
     include-in-header:
       text: |
-        <script defer src="script.js"></script>
+        <script defer src="/script.js"></script>
