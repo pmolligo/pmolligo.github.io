@@ -214,7 +214,7 @@
     "href": "research/papers/gi-bill.html#citation",
     "title": "The G.I. Bill and Vocational Training",
     "section": "Citation",
-    "text": "Citation\nMolligo, Patrick A. “The G.I. Bill and Vocational Training.” Working paper, 2026.\n@unpublished{molligo2026gibill,\n  author = {Molligo, Patrick A.},\n  title = {The G.I. Bill and Vocational Training},\n  year = {2026},\n  note = {Working paper},\n  url = {https://www.patrickmolligo.com/files/papers/molligo-gi-bill-vocational.pdf}\n}\nDownload BibTeX{.paper-button download}"
+    "text": "Citation\nMolligo, Patrick “The G.I. Bill and Vocational Training.” Working paper, 2026.\n@unpublished{molligo2026gibill,\n  author = {Molligo, Patrick},\n  title = {The G.I. Bill and Vocational Training},\n  year = {2026},\n  note = {Working paper}\n}"
   },
   {
     "objectID": "research/index.html",
