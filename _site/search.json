@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Patrick A. Molligo",
     "section": "",
-    "text": "Applied microeconomist specializing in labor economics and economic history.\nI am a Visiting Assistant Professor of Economics at Penn State University (Fall 2026–Spring 2028).\nI received my Ph.D. in Economics at UCLA in June 2026.\n\n\n  Scholar \n  GitHub \n  LinkedIn \n  Email"
+    "text": "Applied microeconomist specializing in labor economics and economic history.\nI am a Visiting Assistant Professor of Economics at Penn State University through Spring 2028. I received my Ph.D. in Economics at UCLA in June 2026.\n\n\n  Scholar \n  GitHub \n  LinkedIn \n  Email"
   },
   {
     "objectID": "blog/posts/first-post.html",
@@ -67,14 +67,14 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Patrick A. Molligo, Ph.D.\nEmail: pmolligo@gmail.com\nFor questions about my research, teaching, or academic materials, please contact me by email."
+    "text": "Patrick A. Molligo, Ph.D.\nEmail: pmolligo@gmail.com\nFor questions about my research or teaching materials, please contact me by email."
   },
   {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "Research",
     "section": "",
-    "text": "My research lies at the intersection of labor economics, economic history, and the economics of education. I study how public policy and educational institutions shape human-capital investment and labor-market outcomes.\n\n\n\n\n\n\n\n  \n\n    \n      \n        Job Market Paper\n      \n\n      \n        2026\n      \n    \n\n    \n      The G.I. Bill and Vocational Training\n    \n\n    \n\n    \n\n    \n      This paper studies how the educational provisions of the World War II and Korean War G.I. Bills affected vocational training, educational attainment, and long-run labor-market outcomes.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n  \n\n    \n      \n        Published\n      \n\n      \n        2020\n      \n    \n\n    \n      The Economic Effects Of Trade Policy Uncertainty\n    \n\n    \n\n    \n\n    \n      This paper studies the effects of unexpected changes in trade policy uncertainty (TPU) on the U.S. economy. Three measures of TPU are constructed using newspaper coverage, firms’ earnings calls, and tariff rates. Firm-level and aggregate macroeconomic data reveal that increases in TPU reduce business investment. The empirical results are interpreted through the lens of a two-country general equilibrium model with nominal rigidities and firms’ export participation decisions. News and increased uncertainty about higher future tariffs reduce investment and activity.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n\nNo matching items"
+    "text": "My research interests include labor economics, economic history, and the economics of education. I study how public policy and educational institutions shape human-capital investment and labor-market outcomes. I have helped construct new datasets using both archival digitization work and textual analysis of historical documents. Below is a list of my research papers, including published work and working papers.\n\n\n\n\n\n\n\n  \n\n    \n      \n        Job Market Paper\n      \n\n      \n        2026\n      \n    \n\n    \n      The G.I. Bill and Vocational Training\n    \n\n    \n\n    \n\n    \n      This paper studies how the educational provisions of the World War II and Korean War G.I. Bills affected vocational training, educational attainment, and long-run labor-market outcomes.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n  \n\n    \n      \n        Published\n      \n\n      \n        2020\n      \n    \n\n    \n      The Economic Effects Of Trade Policy Uncertainty\n    \n\n    \n\n    \n\n    \n      This paper uses a novel measure of trade policy uncertainty (TPU) to study the effects of unexpected changes in policy on the U.S. economy. The paper finds that increases in TPU reduce business investment and economic activity.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n\nNo matching items"
   },
   {
     "objectID": "research/papers/gi-bill.html",
@@ -166,5 +166,26 @@
     "title": "ECON 105: Introduction to Mathematical Economics",
     "section": "Materials",
     "text": "Materials\n\nSyllabus\nLecture slides\nPractice problems\nData exercises"
+  },
+  {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "Migrated website from Hugo to Quarto.\nRedesigned homepage.\nAdded automatic research listings.\nAdded teaching section.\nAdded blog framework.\nDeployed to GitHub Pages with custom domain.\n\n\n\n\n\nORCID integration\nGoogle Scholar icon\nSoftware & Data page\nResearch filtering"
+  },
+  {
+    "objectID": "CHANGELOG.html#section",
+    "href": "CHANGELOG.html#section",
+    "title": "Changelog",
+    "section": "",
+    "text": "Migrated website from Hugo to Quarto.\nRedesigned homepage.\nAdded automatic research listings.\nAdded teaching section.\nAdded blog framework.\nDeployed to GitHub Pages with custom domain."
+  },
+  {
+    "objectID": "CHANGELOG.html#future-ideas",
+    "href": "CHANGELOG.html#future-ideas",
+    "title": "Changelog",
+    "section": "",
+    "text": "ORCID integration\nGoogle Scholar icon\nSoftware & Data page\nResearch filtering"
   }
 ]
