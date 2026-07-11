@@ -13,4 +13,4 @@ listing:
   feed: false
 ---
 
-My research lies at the intersection of labor economics, economic history, and the economics of education. I study how public policy and educational institutions shape human-capital investment and labor-market outcomes.
+My research interests include labor economics, economic history, and the economics of education. I study how public policy and educational institutions shape human-capital investment and labor-market outcomes. I have helped construct new datasets using both archival digitization work and textual analysis of historical documents. Below is a list of my research papers, including published work and working papers. 
