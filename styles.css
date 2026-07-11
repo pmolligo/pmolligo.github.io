@@ -394,12 +394,13 @@ h6  {
   margin: 0.75rem 0 1.75rem;
 }
 
-.topic-tags span {
+.topic-tag {
   display: inline-block;
   padding: 0.28rem 0.65rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
-  background: var(--bs-tertiary-bg);
-  color: var(--bs-body-color);
+  background-color: #f2f3f5;
+  color: #444;
   font-size: 0.88rem;
   line-height: 1.3;
 }
