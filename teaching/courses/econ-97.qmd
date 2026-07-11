@@ -5,7 +5,7 @@ institution: "UCLA"
 term: "Spring 2026"
 role: "Instructor"
 order: 2
-
+title-block: false
 description: >
   Undergraduate course covering the foundations of probability and statistics with a focus on coding applications.
 
@@ -41,7 +41,6 @@ This course covers essential mathematical and computing skills needed to study m
 <span>Confidence intervals</span>
 <span>R coding</span>
 <span>Simulation</span>
-
 :::
 
 ## Selected Teaching Materials

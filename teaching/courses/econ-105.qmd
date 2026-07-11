@@ -5,7 +5,6 @@ institution: "UCLA"
 term: "Fall 2024, 2025"
 role: "Instructor"
 order: 1
-
 description: >
   Undergraduate course covering the mathematical tools needed for economic analysis.
 
@@ -23,18 +22,20 @@ This course covers the essential mathematical and computing skills needed to stu
 ## Topics
 
 ::: {.topic-tags}
-<span>Functions and derivatives</span>
-<span>Logs and exponents</span>
-<span>Unconstrained optimization</span>
-<span>Constrained optimization</span>
-<span>Lagrange multipliers</span>
-<span>Consumer theory</span>
-<span>Implicit functions</span>
-<span>Elasticities</span>
-<span>Slutsky equation</span>
-<span>Producer theory</span>
-<span>Excel</span>
-<span>R</span>
+
+[Functions and derivatives]{.topic-tag}
+[Logs and exponents]{.topic-tag}
+[Unconstrained optimization]{.topic-tag}
+[Constrained optimization]{.topic-tag}
+[Lagrange multipliers]{.topic-tag}
+[Consumer theory]{.topic-tag}
+[Implicit functions]{.topic-tag}
+[Elasticities]{.topic-tag}
+[Slutsky equation]{.topic-tag}
+[Producer theory]{.topic-tag}
+[Excel]{.topic-tag}
+[R]{.topic-tag}
+
 :::
 
 ## Selected Teaching Materials

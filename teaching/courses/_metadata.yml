@@ -5,3 +5,4 @@ number-sections: false
 format:
   html:
     page-layout: article
+    title-block-banner: false
