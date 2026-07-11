@@ -1,0 +1,51 @@
+---
+title: "The G.I. Bill and Vocational Training"
+
+status: "Job Market Paper"
+year: 2026
+order: 1
+
+description: >
+  This paper studies how the educational provisions of the World War II
+  and Korean War G.I. Bills affected vocational training, educational
+  attainment, and long-run labor-market outcomes.
+
+pdf: "../../files/papers/molligo-gi-bill-vocational.pdf"
+
+# Uncomment these when the files or links exist:
+# slides: "../../files/papers/gi-bill-vocational-slides.pdf"
+# appendix: "../../files/papers/gi-bill-vocational-appendix.pdf"
+# code: "https://github.com/pmolligo/example-repository"
+
+citation:
+  type: article
+  author:
+    - family: Molligo
+      given: Patrick A.
+  title: "The G.I. Bill and Vocational Training"
+  issued: 2026
+---
+
+::: {.paper-page-links}
+
+[Download PDF](../../files/papers/molligo-gi-bill-vocational.pdf){.btn .btn-primary}
+
+<!-- Add these buttons when available:
+
+[Slides](../../files/papers/gi-bill-vocational-slides.pdf){.btn .btn-outline-primary}
+
+[Online appendix](../../files/papers/gi-bill-vocational-appendix.pdf){.btn .btn-outline-primary}
+
+[Code](https://github.com/pmolligo/example-repository){.btn .btn-outline-primary}
+
+-->
+
+:::
+
+## Abstract
+
+This paper examines the impact of subsidies for vocational training on take-up rates and long-term labor market outcomes by studying the first large-scale public subsidy programs in the United States—–the World War II and Korean War G.I. Bills. Previous research emphasizes that these programs expanded college and high school attainment. I show that they also substantially increased vocational training, a key but overlooked channel through which the G.I. Bill affected human capital formation. Using variation in military service across birth cohorts as an exogenous source of eligibility, I estimate that G.I. Bill benefits increased vocational school completion by 4–9% for World War II veterans and 3–7% for Korean War veterans, with stronger effects in the South and among older beneficiaries. The results suggest that federal subsidies for education not only expanded traditional higher education but also directed many veterans toward trade school—–broadening access to job-specific skills and reshaping the composition of postwar training and employment.
+
+## Results
+
+

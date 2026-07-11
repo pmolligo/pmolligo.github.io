@@ -1,0 +1,32 @@
+---
+title: "COURSE NUMBER: COURSE TITLE"
+
+institution: "University Name"
+term: "Semester Year"
+role: "Instructor"
+order: 99
+
+description: >
+  Short course description for the main Teaching page.
+
+# Delete or comment out when unavailable:
+# syllabus: "../../files/teaching/SYLLABUS.pdf"
+# evaluations: "../../files/teaching/EVALUATIONS.pdf"
+---
+
+## Course overview
+
+Brief description of the course.
+
+## Topics
+
+- Topic 1
+- Topic 2
+- Topic 3
+
+## Materials
+
+- [Syllabus](../../files/teaching/SYLLABUS.pdf)
+- [Lecture slides](#)
+- [Assignments](#)
+- [Data exercises](#)

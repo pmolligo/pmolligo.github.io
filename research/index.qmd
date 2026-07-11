@@ -1,0 +1,16 @@
+---
+title: "Research"
+
+listing:
+  contents:
+    - "papers/*.qmd"
+  template: paper-listing.ejs.md
+  sort: "order asc"
+  sort-ui: false
+  filter-ui: false
+  categories: false
+  page-size: 20
+  feed: false
+---
+
+My research lies at the intersection of labor economics, economic history, and the economics of education. I study how public policy and educational institutions shape human-capital investment and labor-market outcomes.

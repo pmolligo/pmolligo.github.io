@@ -1,0 +1,7 @@
+toc: true
+toc-title: "Course materials"
+number-sections: false
+
+format:
+  html:
+    page-layout: article

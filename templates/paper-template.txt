@@ -1,0 +1,52 @@
+---
+title: "PAPER TITLE"
+
+status: "Working Paper"
+year: 2026
+order: 99
+
+description: >
+  Write a short description for the main Research page.
+
+categories:
+  - Labor Economics
+  - Economic History
+
+pdf: "../../files/papers/PAPER-FILENAME.pdf"
+
+# Optional:
+# slides: "../../files/papers/SLIDES-FILENAME.pdf"
+# appendix: "../../files/papers/APPENDIX-FILENAME.pdf"
+# code: "https://github.com/pmolligo/REPOSITORY"
+
+citation:
+  type: article
+  title: "PAPER TITLE"
+  author:
+    - family: Molligo
+      given: Patrick A.
+  issued: 2026
+  url: "https://www.patrickmolligo.com/research/papers/PAGE-NAME.html"
+---
+
+::: {.paper-page-links}
+
+[Download PDF](../../files/papers/PAPER-FILENAME.pdf){.btn .btn-primary}
+
+:::
+
+## Abstract
+
+Paste the abstract here.
+
+## Main findings
+
+Provide a short summary of the paper’s results.
+
+## Presentations
+
+- Seminar or conference, year
+
+## Suggested citation
+
+Molligo, Patrick A. “PAPER TITLE.” Working paper, 2026.

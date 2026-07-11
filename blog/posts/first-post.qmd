@@ -1,0 +1,10 @@
+---
+title: "Welcome"
+date: 2026-07-10
+description: "A brief introduction to this blog."
+categories:
+  - Website
+  - Research
+---
+
+I plan to use this space for short notes on economics, teaching, data work, and historical research.

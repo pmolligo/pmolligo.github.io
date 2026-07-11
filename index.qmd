@@ -1,0 +1,56 @@
+---
+title: ""
+title-block: false
+page-layout: full
+body-classes: home
+---
+
+:::: {.home-hero}
+
+::: {.home-intro}
+
+# Patrick A. Molligo
+
+Applied microeconomist specializing in labor economics and economic history.
+
+I am a Visiting Assistant Professor of Economics at Penn State University (Fall 2026–Spring 2028).
+
+I received my Ph.D. in Economics at UCLA in June 2026.
+
+<!-- <div class="home-fields">
+  Labor Economics · Economic History · Economics of Education
+</div> -->
+
+<div class="home-links">
+
+<a href="https://scholar.google.com/citations?user=etF9XScAAAAJ" target="_blank" rel="noopener">
+<i class="bi bi-mortarboard-fill"></i>
+Scholar
+</a>
+
+<a href="https://github.com/pmolligo" target="_blank" rel="noopener">
+<i class="bi bi-github"></i>
+GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/patrick-molligo" target="_blank" rel="noopener">
+<i class="bi bi-linkedin"></i>
+LinkedIn
+</a>
+
+<a href="mailto:pmolligo@gmail.com">
+<i class="bi bi-envelope-fill"></i>
+Email
+</a>
+
+</div>
+
+:::
+
+::: {.home-photo}
+
+![](images/headshot.jpg){fig-alt="Portrait of Patrick A. Molligo"}
+
+:::
+
+::::

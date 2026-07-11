@@ -1,0 +1,39 @@
+project:
+  type: website
+  resources:
+    - script.js
+
+website:
+  title: "Patrick A. Molligo"
+  site-url: "https://www.patrickmolligo.com"
+
+  navbar:
+    left:
+      - href: research/index.qmd
+        text: Research
+      # - href: teaching/index.qmd
+      #   text: Teaching
+      # - href: blog/index.qmd
+      #   text: Blog  
+      # - href: software.qmd
+      #   text: Software & Data  
+      - href: files/molligo-cv.pdf
+        text: CV
+      - href: contact.qmd
+        text: Contact
+
+  search: true      
+
+  page-footer:
+    left: "Last updated July 2026"
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <script defer src="script.js"></script>

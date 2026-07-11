@@ -1,0 +1,7 @@
+freeze: auto
+
+format:
+  html:
+    toc: true
+    toc-location: right
+    page-layout: article

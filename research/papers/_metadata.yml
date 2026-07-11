@@ -1,0 +1,10 @@
+toc: true
+toc-title: "On this page"
+toc-location: right
+number-sections: false
+
+title-block-banner: false
+
+format:
+  html:
+    page-layout: article

@@ -1,0 +1,15 @@
+---
+title: "Blog"
+
+listing:
+  contents:
+    - "posts/*.qmd"
+  type: default
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: true
+  categories: true
+  feed: true
+---
+
+Short notes on research, teaching, data, and academic workflows.

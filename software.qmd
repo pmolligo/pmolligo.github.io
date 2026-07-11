@@ -1,0 +1,27 @@
+---
+title: "Software & Data"
+---
+
+## Research code
+
+Selected code and replication materials related to my research.
+
+## Teaching materials
+
+Slides, assignments, datasets, and examples for economics and statistics courses.
+
+## Stata
+
+- Mapping and geographic visualization
+- Regression and table-export workflows
+- Data cleaning utilities
+
+## R
+
+- Data visualization
+- Reproducible examples
+- Teaching demonstrations
+
+## LaTeX
+
+- Beamer templates

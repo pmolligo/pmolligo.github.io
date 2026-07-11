@@ -1,0 +1,16 @@
+---
+title: "Teaching"
+
+listing:
+  contents:
+    - "courses/*.qmd"
+  template: course-listing.ejs.md
+  sort: "order asc"
+  sort-ui: false
+  filter-ui: false
+  categories: false
+  page-size: 20
+  feed: false
+---
+
+I teach courses in economics, probability, statistics, and data analysis.
