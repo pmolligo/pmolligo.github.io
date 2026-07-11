@@ -28,8 +28,8 @@
       <p class="paper-venue"><%= item.venue %></p>
     <% } %>
 
-    <% if (item.description) { %>
-      <p class="paper-description"><%= item.description %></p>
+    <% if (item.summary) { %>
+      <p class="paper-description"><%= item.summary %></p>
     <% } %>
 
     <div class="paper-links">

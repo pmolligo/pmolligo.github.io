@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<script defer="" src="script.js"></script>
+<script defer="" src="../script.js"></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -97,6 +97,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching/index.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../files/molligo-cv.pdf"> 
@@ -153,8 +157,8 @@ ul.task-list li input[type="checkbox"] {
       <p class="paper-venue">&lt;%= item.venue %&gt;</p>
     &lt;% } %&gt;
 
-    &lt;% if (item.description) { %&gt;
-      <p class="paper-description">&lt;%= item.description %&gt;</p>
+    &lt;% if (item.summary) { %&gt;
+      <p class="paper-description">&lt;%= item.summary %&gt;</p>
     &lt;% } %&gt;
 
     <div class="paper-links">

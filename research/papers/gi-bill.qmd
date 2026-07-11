@@ -5,7 +5,7 @@ status: "Working Paper"
 year: 2026
 order: 2
 
-description: >
+summary: >
   This paper studies how the educational provisions of the World War II
   and Korean War G.I. Bills affected vocational training, educational
   attainment, and long-run labor-market outcomes.
@@ -53,7 +53,7 @@ This paper examines the impact of subsidies for vocational training on take-up r
 
 ## Citation
 
-Molligo, Patrick “The G.I. Bill and Vocational Training.” Working paper, 2026.
+Molligo, Patrick (2026). "The G.I. Bill and Vocational Training." Working paper.
 
 ```bibtex
 @unpublished{molligo2026gibill,

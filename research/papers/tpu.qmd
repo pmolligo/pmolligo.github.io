@@ -5,10 +5,12 @@ status: "Published"
 year: 2020
 order: 1
 
-description: >
+summary: >
   This paper uses a novel measure of trade policy uncertainty (TPU) to study the effects of unexpected changes in policy on the U.S. economy. The paper finds that increases in TPU reduce business investment and economic activity.
 
 pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0304393219302004?via%3Dihub"
+
+appendix-cite-as: false
 
 citation:
   type: article-journal
@@ -49,3 +51,19 @@ This paper studies the effects of unexpected changes in trade policy uncertainty
 ## Code and Data
 
 The code and data used in this paper are available at [https://www.matteoiacoviello.com/tpu.htm](https://www.matteoiacoviello.com/tpu.htm)
+
+## Citation
+
+Caldara, D., Iacoviello, M., Molligo, P., Prestipino, A., & Raffo, A. (2020). "The Economic Effects of Trade Policy Uncertainty." Journal of Monetary Economics, 109, 38-59.
+
+```bibtex
+@article{caldara2020economic,
+  title={The economic effects of trade policy uncertainty},
+  author={Caldara, Dario and Iacoviello, Matteo and Molligo, Patrick and Prestipino, Andrea and Raffo, Andrea},
+  journal={Journal of Monetary Economics},
+  volume={109},
+  pages={38--59},
+  year={2020},
+  publisher={Elsevier}
+}
+```
