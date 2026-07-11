@@ -5,8 +5,8 @@ institution: "UCLA"
 term: "Spring 2026"
 role: "Instructor"
 order: 2
-title-block: false
-description: >
+
+summary: >
   Undergraduate course covering the foundations of probability and statistics with a focus on coding applications.
 
 
@@ -24,23 +24,25 @@ This course covers essential mathematical and computing skills needed to study m
 ## Topics
 
 ::: {.topic-tags}
-<span>Methods of enumeration</span>
-<span>Random variables</span>
-<span>Conditional probability</span>
-<span>Discrete probability distributions</span>
-<span>Expected values</span>
-<span>Binomial and Poisson distributions</span>
-<span>Continuous probability distributions</span>
-<span>Integration</span>
-<span>Multivariate probability distributions</span>
-<span>Functions of random variables</span>
-<span>Uniform distributions</span>
-<span>Normal distributions</span>
-<span>Central limit theorem</span>
-<span>Estimation</span>
-<span>Confidence intervals</span>
-<span>R coding</span>
-<span>Simulation</span>
+
+[Methods of enumeration]{.topic-tag}
+[Random variables]{.topic-tag}
+[Conditional probability]{.topic-tag}
+[Discrete probability distributions]{.topic-tag}
+[Expected values]{.topic-tag}
+[Binomial and Poisson distributions]{.topic-tag}
+[Continuous probability distributions]{.topic-tag}
+[Integration]{.topic-tag}
+[Multivariate probability distributions]{.topic-tag}
+[Functions of random variables]{.topic-tag}
+[Uniform distributions]{.topic-tag}
+[Normal distributions]{.topic-tag}
+[Central limit theorem]{.topic-tag}
+[Estimation]{.topic-tag}
+[Confidence intervals]{.topic-tag}
+[R coding]{.topic-tag}
+[Simulation]{.topic-tag}
+
 :::
 
 ## Selected Teaching Materials

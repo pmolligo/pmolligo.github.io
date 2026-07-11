@@ -5,7 +5,7 @@ institution: "UCLA"
 term: "Fall 2024, 2025"
 role: "Instructor"
 order: 1
-description: >
+summary: >
   Undergraduate course covering the mathematical tools needed for economic analysis.
 
 syllabus: "../../files/teaching/econ105/syllabus.pdf"

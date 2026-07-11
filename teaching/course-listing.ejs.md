@@ -22,8 +22,8 @@
       <p class="course-role"><%- item.role %></p>
     <% } %>
 
-    <% if (item.description) { %>
-      <p class="course-description"><%= item.description %></p>
+    <% if (item.summary) { %>
+      <p class="course-description"><%= item.summary %></p>
     <% } %>
 
     <div class="course-links">
