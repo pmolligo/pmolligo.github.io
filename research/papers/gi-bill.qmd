@@ -24,7 +24,7 @@ citation:
   title: "The G.I. Bill and Vocational Training"
   author:
     - family: Molligo
-      given: Patrick A.
+      given: Patrick
   issued:
     year: 2026
 ---
@@ -53,16 +53,15 @@ This paper examines the impact of subsidies for vocational training on take-up r
 
 ## Citation
 
-Molligo, Patrick A. “The G.I. Bill and Vocational Training.” Working paper, 2026.
+Molligo, Patrick “The G.I. Bill and Vocational Training.” Working paper, 2026.
 
 ```bibtex
 @unpublished{molligo2026gibill,
-  author = {Molligo, Patrick A.},
+  author = {Molligo, Patrick},
   title = {The G.I. Bill and Vocational Training},
   year = {2026},
-  note = {Working paper},
-  url = {https://www.patrickmolligo.com/files/papers/molligo-gi-bill-vocational.pdf}
+  note = {Working paper}
 }
 ```
 
-[Download BibTeX](../../files/citations/molligo-gibill.bib){.paper-button download}
+<!-- [Download BibTeX](../../files/citations/molligo-gibill.bib) -->
