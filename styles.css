@@ -387,6 +387,8 @@ h6  {
   font-weight: 500;
 }
 
+/* Topic tags on individual course pages */
+
 .topic-tags {
   display: flex;
   flex-wrap: wrap;
@@ -394,13 +396,12 @@ h6  {
   margin: 0.75rem 0 1.75rem;
 }
 
-.topic-tag {
+.topic-tags span {
   display: inline-block;
   padding: 0.28rem 0.65rem;
-  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
-  background-color: #f2f3f5;
-  color: #444;
+  background: var(--bs-tertiary-bg);
+  color: var(--bs-body-color);
   font-size: 0.88rem;
   line-height: 1.3;
 }

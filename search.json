@@ -53,7 +53,7 @@
     "href": "teaching/course-listing.ejs.html",
     "title": "Patrick A. Molligo",
     "section": "",
-    "text": "&lt;% for (const item of items) { %&gt;\n\n  \n\n    \n      &lt;% if (item.institution) { %&gt;\n        &lt;%- item.institution %&gt;\n      &lt;% } %&gt;\n\n      &lt;% if (item.term) { %&gt;\n        &lt;%- item.term %&gt;\n      &lt;% } %&gt;\n    \n\n    \n      &lt;%- item.title %&gt;\n    \n\n    &lt;% if (item.role) { %&gt;\n      &lt;%- item.role %&gt;\n    &lt;% } %&gt;\n\n    &lt;% if (item.description) { %&gt;\n      &lt;%= item.description %&gt;\n    &lt;% } %&gt;\n\n    \n      Course page\n\n      &lt;% if (item.syllabus) { %&gt;\n        \n          Syllabus\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.evaluations) { %&gt;\n        \n          Evaluations\n        \n      &lt;% } %&gt;\n    \n\n  \n\n&lt;% } %&gt;"
+    "text": "&lt;% for (const item of items) { %&gt;\n\n  \n\n    \n      &lt;% if (item.institution) { %&gt;\n        &lt;%- item.institution %&gt;\n      &lt;% } %&gt;\n\n      &lt;% if (item.term) { %&gt;\n        &lt;%- item.term %&gt;\n      &lt;% } %&gt;\n    \n\n    \n      &lt;%- item.title %&gt;\n    \n\n    &lt;% if (item.role) { %&gt;\n      &lt;%- item.role %&gt;\n    &lt;% } %&gt;\n\n    &lt;% if (item.summary) { %&gt;\n      &lt;%= item.summary %&gt;\n    &lt;% } %&gt;\n\n    \n      Course page\n\n      &lt;% if (item.syllabus) { %&gt;\n        \n          Syllabus\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.evaluations) { %&gt;\n        \n          Evaluations\n        \n      &lt;% } %&gt;\n    \n\n  \n\n&lt;% } %&gt;"
   },
   {
     "objectID": "teaching/courses/econ-97.html",
