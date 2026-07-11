@@ -53,42 +53,70 @@
     "href": "teaching/course-listing.ejs.html",
     "title": "Patrick A. Molligo",
     "section": "",
-    "text": "&lt;% for (const item of items) { %&gt;\n\n  \n\n    \n      &lt;% if (item.institution) { %&gt;\n        &lt;%- item.institution %&gt;\n      &lt;% } %&gt;\n\n      &lt;% if (item.term) { %&gt;\n        &lt;%- item.term %&gt;\n      &lt;% } %&gt;\n    \n\n    \n      &lt;%- item.title %&gt;\n    \n\n    &lt;% if (item.role) { %&gt;\n      &lt;%- item.role %&gt;\n    &lt;% } %&gt;\n\n    &lt;% if (item.description) { %&gt;\n      &lt;%= item.description %&gt;\n    &lt;% } %&gt;\n\n    \n      \n        Course page\n      \n\n      &lt;% if (item.syllabus) { %&gt;\n        \n          Syllabus\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.evaluations) { %&gt;\n        \n          Evaluations\n        \n      &lt;% } %&gt;\n    \n\n  \n\n&lt;% } %&gt;"
+    "text": "&lt;% for (const item of items) { %&gt;\n\n  \n\n    \n      &lt;% if (item.institution) { %&gt;\n        &lt;%- item.institution %&gt;\n      &lt;% } %&gt;\n\n      &lt;% if (item.term) { %&gt;\n        &lt;%- item.term %&gt;\n      &lt;% } %&gt;\n    \n\n    \n      &lt;%- item.title %&gt;\n    \n\n    &lt;% if (item.role) { %&gt;\n      &lt;%- item.role %&gt;\n    &lt;% } %&gt;\n\n    &lt;% if (item.description) { %&gt;\n      &lt;%= item.description %&gt;\n    &lt;% } %&gt;\n\n    \n      Course page\n\n      &lt;% if (item.syllabus) { %&gt;\n        \n          Syllabus\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.evaluations) { %&gt;\n        \n          Evaluations\n        \n      &lt;% } %&gt;\n    \n\n  \n\n&lt;% } %&gt;"
+  },
+  {
+    "objectID": "teaching/courses/econ-97.html",
+    "href": "teaching/courses/econ-97.html",
+    "title": "ECON 97: Economic Toolkit",
+    "section": "",
+    "text": "UCLA · Instructor · Spring 2026"
+  },
+  {
+    "objectID": "teaching/courses/econ-97.html#overview",
+    "href": "teaching/courses/econ-97.html#overview",
+    "title": "ECON 97: Economic Toolkit",
+    "section": "Overview",
+    "text": "Overview\nThis course covers essential mathematical and computing skills needed to study modern economics, with an emphasis on probability and statistics. Its reviews set algebra, combinatorics, probability theory, integral calculus, estimation, and other problem solving techniques used in probability and statistics. Some lessons focus on the basics of Excel and R (a statistical programming language) in order to prime you for future econometrics coursework."
+  },
+  {
+    "objectID": "teaching/courses/econ-97.html#topics",
+    "href": "teaching/courses/econ-97.html#topics",
+    "title": "ECON 97: Economic Toolkit",
+    "section": "Topics",
+    "text": "Topics\n\nMethods of enumeration Random variables Conditional probability Discrete probability distributions Expected values Binomial and Poisson distributions Continuous probability distributions Integration Multivariate probability distributions Functions of random variables Uniform distributions Normal distributions Central limit theorem Estimation Confidence intervals R coding Simulation"
+  },
+  {
+    "objectID": "teaching/courses/econ-97.html#selected-teaching-materials",
+    "href": "teaching/courses/econ-97.html#selected-teaching-materials",
+    "title": "ECON 97: Economic Toolkit",
+    "section": "Selected Teaching Materials",
+    "text": "Selected Teaching Materials\n\nLecture slides\n\n\n\nCoding and data analysis\n\nExcel materials\nR materials\n\n\n\nOther materials\n\nPractice problems\nCourse syllabus\n\n\nThis page contains representative materials rather than a complete course archive."
   },
   {
     "objectID": "teaching/courses/econ-105.html",
     "href": "teaching/courses/econ-105.html",
     "title": "ECON 105: Introduction to Mathematical Economics",
     "section": "",
-    "text": "This course covers the essential mathematical and computing skills needed to study modern economics. We will review both differential and integral calculus (first derivatives, partial derivatives, optimization, integration), as well as the basics of Excel and R (a statistical programming language)."
+    "text": "UCLA · Instructor · Fall 2024, 2025"
   },
   {
-    "objectID": "teaching/courses/econ-105.html#course-overview",
-    "href": "teaching/courses/econ-105.html#course-overview",
+    "objectID": "teaching/courses/econ-105.html#overview",
+    "href": "teaching/courses/econ-105.html#overview",
     "title": "ECON 105: Introduction to Mathematical Economics",
-    "section": "",
-    "text": "This course covers the essential mathematical and computing skills needed to study modern economics. We will review both differential and integral calculus (first derivatives, partial derivatives, optimization, integration), as well as the basics of Excel and R (a statistical programming language)."
+    "section": "Overview",
+    "text": "Overview\nThis course covers the essential mathematical and computing skills needed to study modern economics. It reviews differential and integral calculus—including derivatives, optimization, and integration—as well as introductory data analysis in Excel and R."
   },
   {
     "objectID": "teaching/courses/econ-105.html#topics",
     "href": "teaching/courses/econ-105.html#topics",
     "title": "ECON 105: Introduction to Mathematical Economics",
     "section": "Topics",
-    "text": "Topics\n\nProbability and conditional probability\nDiscrete and continuous random variables\nExpected value and variance\nBinomial, Poisson, uniform, and normal distributions\nCentral limit theorem\nConfidence intervals\nHypothesis testing\nIntroductory data analysis in Excel and R"
+    "text": "Topics\n\nFunctions and derivatives Logs and exponents Unconstrained optimization Constrained optimization Lagrange multipliers Consumer theory Implicit functions Elasticities Slutsky equation Producer theory Excel R"
   },
   {
-    "objectID": "teaching/courses/econ-105.html#materials",
-    "href": "teaching/courses/econ-105.html#materials",
+    "objectID": "teaching/courses/econ-105.html#selected-teaching-materials",
+    "href": "teaching/courses/econ-105.html#selected-teaching-materials",
     "title": "ECON 105: Introduction to Mathematical Economics",
-    "section": "Materials",
-    "text": "Materials\n\nSyllabus\nLecture slides\nPractice problems\nData exercises"
+    "section": "Selected Teaching Materials",
+    "text": "Selected Teaching Materials\n\nLecture slides\n\nIntroduction\nOptimization\nLagrange Multipliers\nLevel Curves\nConsumer Theory I\nConsumer Theory II\nMid-course Review\nIncome and Substitution Effects I\nIncome and Substitution Effects II\nElasticities\nProducer Theory\nCost Minimization\nProfit Maximization\n\n\n\nCoding and data analysis\n\nExcel materials\nR materials\n\n\n\nOther materials\n\nPractice problems\nCourse syllabus\n\n\nThis page contains representative materials rather than a complete course archive."
   },
   {
     "objectID": "teaching/index.html",
     "href": "teaching/index.html",
     "title": "Teaching",
     "section": "",
-    "text": "I teach courses in economics, probability, statistics, and data analysis.\n\n\n\n\n\n\n\n  \n\n    \n      \n        UCLA\n      \n\n      \n        Fall 2025\n      \n    \n\n    \n      ECON 105: Introduction to Mathematical Economics\n    \n\n    \n      Instructor\n    \n\n    \n      Undergraduate statistics course covering probability, random variables, estimation, confidence intervals, hypothesis testing, and applied data analysis.\n\n    \n\n    \n      \n        Course page\n      \n\n      \n        \n          Syllabus\n        \n      \n\n      \n    \n\n  \n\n\nNo matching items"
+    "text": "I have taught courses in basic and intermediate microeconomics, probability and statistics, econometrics, coding and data analysis, and mathematics. No matter the subject, I make an effort to include empirical applications and coding tutorials to help students develop practical skills they can use in their own research and future careers.\n\n\n\n\n\n\n\n  \n\n    \n      \n        UCLA\n      \n\n      \n        Fall 2024, 2025\n      \n    \n\n    \n      ECON 105: Introduction to Mathematical Economics\n    \n\n    \n      Instructor\n    \n\n    \n      Undergraduate course covering the mathematical tools needed for economic analysis.\n\n    \n\n    \n      Course page\n\n      \n        \n          Syllabus\n        \n      \n\n      \n    \n\n  \n\n  \n\n    \n      \n        UCLA\n      \n\n      \n        Spring 2026\n      \n    \n\n    \n      ECON 97: Economic Toolkit\n    \n\n    \n      Instructor\n    \n\n    \n      Undergraduate course covering the foundations of probability and statistics with a focus on coding applications.\n\n    \n\n    \n      Course page\n\n      \n        \n          Syllabus\n        \n      \n\n      \n    \n\n  \n\n\nNo matching items"
   },
   {
     "objectID": "software.html",
@@ -182,10 +210,17 @@
     "text": "Results"
   },
   {
+    "objectID": "research/papers/gi-bill.html#citation",
+    "href": "research/papers/gi-bill.html#citation",
+    "title": "The G.I. Bill and Vocational Training",
+    "section": "Citation",
+    "text": "Citation\nMolligo, Patrick A. “The G.I. Bill and Vocational Training.” Working paper, 2026.\n@unpublished{molligo2026gibill,\n  author = {Molligo, Patrick A.},\n  title = {The G.I. Bill and Vocational Training},\n  year = {2026},\n  note = {Working paper},\n  url = {https://www.patrickmolligo.com/files/papers/molligo-gi-bill-vocational.pdf}\n}\nDownload BibTeX{.paper-button download}"
+  },
+  {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "Research",
     "section": "",
-    "text": "My research interests include labor economics, economic history, and the economics of education. I study how public policy and educational institutions shape human-capital investment and labor-market outcomes. I have helped construct new datasets using both archival digitization work and textual analysis of historical documents. Below is a list of my research papers, including published work and working papers.\n\n\n\n\n\n\n\n  \n\n    \n      \n        Job Market Paper\n      \n\n      \n        2026\n      \n    \n\n    \n      The G.I. Bill and Vocational Training\n    \n\n    \n\n    \n\n    \n      This paper studies how the educational provisions of the World War II and Korean War G.I. Bills affected vocational training, educational attainment, and long-run labor-market outcomes.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n  \n\n    \n      \n        Published\n      \n\n      \n        2020\n      \n    \n\n    \n      The Economic Effects Of Trade Policy Uncertainty\n    \n\n    \n\n    \n\n    \n      This paper uses a novel measure of trade policy uncertainty (TPU) to study the effects of unexpected changes in policy on the U.S. economy. The paper finds that increases in TPU reduce business investment and economic activity.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n\nNo matching items"
+    "text": "My research interests include labor economics, economic history, and the economics of education. I study how public policy and educational institutions shape human-capital investment and labor-market outcomes. I have helped construct new datasets using both archival digitization work and textual analysis of historical documents. Below is a list of my research papers, including published work and working papers.\n\n\n\n\n\n\n\n  \n\n    \n      \n        Working Paper\n      \n\n      \n        2026\n      \n    \n\n    \n      The G.I. Bill and Vocational Training\n    \n\n    \n\n    \n\n    \n      This paper studies how the educational provisions of the World War II and Korean War G.I. Bills affected vocational training, educational attainment, and long-run labor-market outcomes.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n  \n\n    \n      \n        Published\n      \n\n      \n        2020\n      \n    \n\n    \n      The Economic Effects Of Trade Policy Uncertainty\n    \n\n    \n\n    \n\n    \n      This paper uses a novel measure of trade policy uncertainty (TPU) to study the effects of unexpected changes in policy on the U.S. economy. The paper finds that increases in TPU reduce business investment and economic activity.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n\nNo matching items"
   }
 ]
