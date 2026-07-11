@@ -11,8 +11,8 @@ website:
     left:
       - href: research/index.qmd
         text: Research
-      # - href: teaching/index.qmd
-      #   text: Teaching
+      - href: teaching/index.qmd
+        text: Teaching
       # - href: blog/index.qmd
       #   text: Blog  
       # - href: software.qmd
