@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.patrickmolligo.com/teaching/index.html</loc>
-    <lastmod>2026-07-10T20:25:57.850Z</lastmod>
+    <lastmod>2026-07-11T04:58:29.441Z</lastmod>
   </url>
   <url>
     <loc>https://www.patrickmolligo.com/teaching/course-listing.ejs.html</loc>
-    <lastmod>2026-07-10T18:16:15.671Z</lastmod>
+    <lastmod>2026-07-11T06:14:42.207Z</lastmod>
   </url>
   <url>
     <loc>https://www.patrickmolligo.com/research/papers/tpu.html</loc>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://www.patrickmolligo.com/research/papers/gi-bill.html</loc>
-    <lastmod>2026-07-10T23:19:20.995Z</lastmod>
+    <lastmod>2026-07-11T05:48:50.616Z</lastmod>
   </url>
   <url>
     <loc>https://www.patrickmolligo.com/software.html</loc>
@@ -46,10 +46,22 @@
   </url>
   <url>
     <loc>https://www.patrickmolligo.com/teaching/courses/econ-105.html</loc>
-    <lastmod>2026-07-10T23:27:26.574Z</lastmod>
+    <lastmod>2026-07-11T06:30:36.123Z</lastmod>
   </url>
   <url>
     <loc>https://www.patrickmolligo.com/CHANGELOG.html</loc>
     <lastmod>2026-07-11T01:58:42.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.patrickmolligo.com/files/teaching/econ97/coding/R labs/econ97_labs.html</loc>
+    <lastmod>2026-02-23T20:09:39.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.patrickmolligo.com/files/teaching/econ97/coding/R labs/clt/clt_note.html</loc>
+    <lastmod>2026-03-02T15:35:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.patrickmolligo.com/teaching/courses/econ-97.html</loc>
+    <lastmod>2026-07-11T06:30:28.020Z</lastmod>
   </url>
 </urlset>

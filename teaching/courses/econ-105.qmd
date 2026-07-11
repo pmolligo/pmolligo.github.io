@@ -2,35 +2,69 @@
 title: "ECON 105: Introduction to Mathematical Economics"
 
 institution: "UCLA"
-term: "Fall 2025"
+term: "Fall 2024, 2025"
 role: "Instructor"
 order: 1
 
 description: >
-  Undergraduate statistics course covering probability, random variables,
-  estimation, confidence intervals, hypothesis testing, and applied data analysis.
+  Undergraduate course covering the mathematical tools needed for economic analysis.
 
-syllabus: "../../files/teaching/econ105-syllabus.pdf"
+syllabus: "../../files/teaching/econ105/syllabus.pdf"
 ---
 
-## Course overview
+::: {.course-meta}
+UCLA · Instructor · Fall 2024, 2025
+:::
 
-This course covers the essential mathematical and computing skills needed to study modern economics. We will review both differential and integral calculus (first derivatives, partial derivatives, optimization, integration), as well as the basics of Excel and R (a statistical programming language).
+## Overview
+
+This course covers the essential mathematical and computing skills needed to study modern economics. It reviews differential and integral calculus—including derivatives, optimization, and integration—as well as introductory data analysis in Excel and R.
 
 ## Topics
 
-- Probability and conditional probability
-- Discrete and continuous random variables
-- Expected value and variance
-- Binomial, Poisson, uniform, and normal distributions
-- Central limit theorem
-- Confidence intervals
-- Hypothesis testing
-- Introductory data analysis in Excel and R
+::: {.topic-tags}
+<span>Functions and derivatives</span>
+<span>Logs and exponents</span>
+<span>Unconstrained optimization</span>
+<span>Constrained optimization</span>
+<span>Lagrange multipliers</span>
+<span>Consumer theory</span>
+<span>Implicit functions</span>
+<span>Elasticities</span>
+<span>Slutsky equation</span>
+<span>Producer theory</span>
+<span>Excel</span>
+<span>R</span>
+:::
 
-## Materials
+## Selected Teaching Materials
 
-- [Syllabus](../../files/teaching/econ105-syllabus.pdf)
-- [Lecture slides](#)
-- [Practice problems](#)
-- [Data exercises](#)
+### Lecture slides
+
+- [Introduction](../../files/teaching/econ105/slides/lecture_01_intro.pdf){target="_blank"}
+- [Optimization](../../files/teaching/econ105/slides/lecture_02_optimization.pdf){target="_blank"}
+- [Lagrange Multipliers](../../files/teaching/econ105/slides/lecture_03_lagrange.pdf){target="_blank"}
+- [Level Curves](../../files/teaching/econ105/slides/lecture_04_level_curves.pdf){target="_blank"}
+- [Consumer Theory I](../../files/teaching/econ105/slides/lecture_05_consumer_pt1.pdf){target="_blank"}
+- [Consumer Theory II](../../files/teaching/econ105/slides/lecture_06_consumer_pt2.pdf){target="_blank"}
+- [Mid-course Review](../../files/teaching/econ105/slides/lecture_07_review.pdf){target="_blank"}
+- [Income and Substitution Effects I](../../files/teaching/econ105/slides/lecture_08_inc_sub_pt1.pdf){target="_blank"}
+- [Income and Substitution Effects II](../../files/teaching/econ105/slides/lecture_09_inc_sub_pt2.pdf){target="_blank"}
+- [Elasticities](../../files/teaching/econ105/slides/lecture_10_elasticities.pdf){target="_blank"}
+- [Producer Theory](../../files/teaching/econ105/slides/lecture_11_firms.pdf){target="_blank"}
+- [Cost Minimization](../../files/teaching/econ105/slides/lecture_12_costs.pdf){target="_blank"}
+- [Profit Maximization](../../files/teaching/econ105/slides/lecture_13_profits.pdf){target="_blank"}
+
+### Coding and data analysis
+
+- [Excel materials](../../files/teaching/econ105/coding/){target="_blank"}
+- [R materials](../../files/teaching/econ105/coding/){target="_blank"}
+
+### Other materials
+
+- [Practice problems](../../files/teaching/econ105/exercises/){target="_blank"}
+- [Course syllabus](../../files/teaching/econ105/econ105-syllabus.pdf){target="_blank"}
+
+::: {.materials-note}
+This page contains representative materials rather than a complete course archive.
+:::

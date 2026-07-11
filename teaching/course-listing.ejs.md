@@ -27,14 +27,10 @@
     <% } %>
 
     <div class="course-links">
-      <a class="course-button course-button-primary"
-         href="<%- item.path %>">
-        Course page
-      </a>
+      <a href="<%- item.path %>">Course page</a>
 
       <% if (item.syllabus) { %>
-        <a class="course-button"
-           href="<%- item.syllabus %>"
+        <a href="<%- item.syllabus %>"
            target="_blank"
            rel="noopener">
           Syllabus
@@ -42,8 +38,7 @@
       <% } %>
 
       <% if (item.evaluations) { %>
-        <a class="course-button"
-           href="<%- item.evaluations %>"
+        <a href="<%- item.evaluations %>"
            target="_blank"
            rel="noopener">
           Evaluations

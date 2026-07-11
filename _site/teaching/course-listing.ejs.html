@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<script defer="" src="script.js"></script>
+<script defer="" src="../script.js"></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -97,6 +97,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching/index.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../files/molligo-cv.pdf"> 
@@ -152,18 +156,16 @@ ul.task-list li input[type="checkbox"] {
     &lt;% } %&gt;
 
     <div class="course-links">
-      <a class="course-button course-button-primary" href="<%- item.path %>">
-        Course page
-      </a>
+      <a href="<%- item.path %>">Course page</a>
 
       &lt;% if (item.syllabus) { %&gt;
-        <a class="course-button" href="<%- item.syllabus %>" target="_blank" rel="noopener">
+        <a href="<%- item.syllabus %>" target="_blank" rel="noopener">
           Syllabus
         </a>
       &lt;% } %&gt;
 
       &lt;% if (item.evaluations) { %&gt;
-        <a class="course-button" href="<%- item.evaluations %>" target="_blank" rel="noopener">
+        <a href="<%- item.evaluations %>" target="_blank" rel="noopener">
           Evaluations
         </a>
       &lt;% } %&gt;

@@ -1,0 +1,75 @@
+---
+title: "ECON 97: Economic Toolkit"
+
+institution: "UCLA"
+term: "Spring 2026"
+role: "Instructor"
+order: 2
+
+description: >
+  Undergraduate course covering the foundations of probability and statistics with a focus on coding applications.
+
+
+syllabus: "../../files/teaching/econ97/econ97-syllabus.pdf"
+---
+
+::: {.course-meta}
+UCLA · Instructor · Spring 2026
+:::
+
+## Overview
+
+This course covers essential mathematical and computing skills needed to study modern economics, with an emphasis on probability and statistics. Its reviews set algebra, combinatorics, probability theory, integral calculus, estimation, and other problem solving techniques used in probability and statistics. Some lessons focus on the basics of Excel and R (a statistical programming language) in order to prime you for future econometrics coursework.
+
+## Topics
+
+::: {.topic-tags}
+<span>Methods of enumeration</span>
+<span>Random variables</span>
+<span>Conditional probability</span>
+<span>Discrete probability distributions</span>
+<span>Expected values</span>
+<span>Binomial and Poisson distributions</span>
+<span>Continuous probability distributions</span>
+<span>Integration</span>
+<span>Multivariate probability distributions</span>
+<span>Functions of random variables</span>
+<span>Uniform distributions</span>
+<span>Normal distributions</span>
+<span>Central limit theorem</span>
+<span>Estimation</span>
+<span>Confidence intervals</span>
+<span>R coding</span>
+<span>Simulation</span>
+
+:::
+
+## Selected Teaching Materials
+
+### Lecture slides
+
+<!-- - [Introduction](../../files/teaching/econ97/slides/lecture_01_intro.pdf){target="_blank"}
+- [Optimization](../../files/teaching/econ97/slides/lecture_02_optimization.pdf){target="_blank"}
+- [Lagrange Multipliers](../../files/teaching/econ97/slides/lecture_03_lagrange.pdf){target="_blank"}
+- [Level Curves](../../files/teaching/econ97/slides/lecture_04_level_curves.pdf){target="_blank"}
+- [Consumer Theory I](../../files/teaching/econ97/slides/lecture_05_consumer_pt1.pdf){target="_blank"}
+- [Consumer Theory II](../../files/teaching/econ97/slides/lecture_06_consumer_pt2.pdf){target="_blank"}
+- [Mid-course Review](../../files/teaching/econ97/slides/lecture_07_review.pdf){target="_blank"}
+- [Income and Substitution Effects I](../../files/teaching/econ97/slides/lecture_08_inc_sub_pt1.pdf){target="_blank"}
+- [Income and Substitution Effects II](../../files/teaching/econ97/slides/lecture_09_inc_sub_pt2.pdf){target="_blank"}
+- [Elasticities](../../files/teaching/econ97/slides/lecture_10_elasticities.pdf){target="_blank"}
+- [Producer Theory](../../files/teaching/econ97/slides/lecture_11_firms.pdf){target="_blank"} -->
+
+### Coding and data analysis
+
+- [Excel materials](../../files/teaching/econ97/coding/){target="_blank"}
+- [R materials](../../files/teaching/econ97/coding/){target="_blank"}
+
+### Other materials
+
+- [Practice problems](../../files/teaching/econ97/exercises/){target="_blank"}
+- [Course syllabus](../../files/teaching/econ97/econ97-syllabus.pdf){target="_blank"}
+
+::: {.materials-note}
+This page contains representative materials rather than a complete course archive.
+:::

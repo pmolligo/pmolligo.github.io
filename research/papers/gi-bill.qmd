@@ -1,7 +1,7 @@
 ---
 title: "The G.I. Bill and Vocational Training"
 
-status: "Job Market Paper"
+status: "Working Paper"
 year: 2026
 order: 1
 
@@ -17,13 +17,16 @@ pdf: "../../files/papers/molligo-gi-bill-vocational.pdf"
 # appendix: "../../files/papers/gi-bill-vocational-appendix.pdf"
 # code: "https://github.com/pmolligo/example-repository"
 
+appendix-cite-as: false
+
 citation:
-  type: article
+  type: manuscript
+  title: "The G.I. Bill and Vocational Training"
   author:
     - family: Molligo
       given: Patrick A.
-  title: "The G.I. Bill and Vocational Training"
-  issued: 2026
+  issued:
+    year: 2026
 ---
 
 ::: {.paper-page-links}
@@ -48,4 +51,18 @@ This paper examines the impact of subsidies for vocational training on take-up r
 
 ## Results
 
+## Citation
 
+Molligo, Patrick A. “The G.I. Bill and Vocational Training.” Working paper, 2026.
+
+```bibtex
+@unpublished{molligo2026gibill,
+  author = {Molligo, Patrick A.},
+  title = {The G.I. Bill and Vocational Training},
+  year = {2026},
+  note = {Working paper},
+  url = {https://www.patrickmolligo.com/files/papers/molligo-gi-bill-vocational.pdf}
+}
+```
+
+[Download BibTeX](../../files/citations/molligo-gibill.bib){.paper-button download}

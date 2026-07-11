@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Patrick Molligo">
+<meta name="dcterms.date" content="2026-07-10">
+
+<title>Econ 97 Labs – Patrick A. Molligo</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../../">
+<script src="../../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../site_libs/bootstrap/bootstrap-d70271683aa93feafeb583e606870e3f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script defer="" src="../../../../../script.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../../../index.html">
+    <span class="navbar-title">Patrick A. Molligo</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../research/index.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../teaching/index.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../files/molligo-cv.pdf"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Econ 97 Labs</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Patrick Molligo </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 10, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="how-to-use-this-lab-manual" class="level1">
+<h1>How to Use This Lab Manual</h1>
+<p>These labs are designed to reinforce <em>probability theory</em> by using <strong>simulation</strong> and <strong>computational verification</strong> in R.</p>
+<p>Why simulation helps in probability:</p>
+<ul>
+<li>Many probabilities are defined as <em>long-run frequencies</em> (e.g., the chance of heads is the limiting proportion of heads in repeated coin flips).</li>
+<li>Simulation lets us <strong>approximate</strong> theoretical probabilities and see concepts like the <strong>Law of Large Numbers</strong> and <strong>Central Limit Theorem</strong> in action.</li>
+<li>Simulation is also a practical tool when exact calculations are difficult.</li>
+</ul>
+<p>Throughout, we will use:</p>
+<ul>
+<li><strong>Random sampling</strong> (<code>sample()</code>, <code>rbinom()</code>, etc.)</li>
+<li><strong>Indicators</strong> like <code>(event)</code> which evaluate to <code>TRUE/FALSE</code>, and means of indicators to estimate probabilities</li>
+<li><strong>Repetition</strong> (<code>replicate()</code>) to generate many trials</li>
+<li><strong>Visualization</strong> (<code>plot()</code>, <code>hist()</code>) to connect distributions to data</li>
+</ul>
+<hr>
+</section>
+<section id="lab-1-r-basics-simulation-law-of-large-numbers" class="level1">
+<h1>Lab 1 — R Basics + Simulation + Law of Large Numbers</h1>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<ul>
+<li>Learn R basics: vectors, arithmetic, logical comparisons, and summaries</li>
+<li>Estimate probabilities through simulation</li>
+<li>See the <strong>Law of Large Numbers (LLN)</strong>: the sample proportion approaches the true probability as sample size grows</li>
+</ul>
+</section>
+<section id="concepts" class="level2">
+<h2 class="anchored" data-anchor-id="concepts">Concepts</h2>
+<section id="probability-as-a-long-run-frequency" class="level3">
+<h3 class="anchored" data-anchor-id="probability-as-a-long-run-frequency">Probability as a long-run frequency</h3>
+<p>If we repeat an experiment many times, the proportion of times an event occurs tends to stabilize around the true probability. In simulation, we approximate a probability by:</p>
+<p><span class="math display">\[P(A) \approx \frac{{\text{trials where }A\text{ happens}}}{\text{number of trials}}.\]</span></p>
+</section>
+<section id="indicator-variables" class="level3">
+<h3 class="anchored" data-anchor-id="indicator-variables">Indicator variables</h3>
+<p>If we define an indicator (I_A) that equals 1 when event (A) occurs and 0 otherwise, then:</p>
+<ul>
+<li>The average of (I_A) across many trials estimates (P(A)).</li>
+<li>In R, <code>(condition)</code> produces <code>TRUE/FALSE</code>, and <code>mean(TRUE/FALSE)</code> treats <code>TRUE</code> as 1 and <code>FALSE</code> as 0.</li>
+</ul>
+</section>
+</section>
+<section id="warm-up-run-each-line" class="level2">
+<h2 class="anchored" data-anchor-id="warm-up-run-each-line">Warm-up (run each line)</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 55</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 5.5</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">5</span>, <span class="dv">9</span>)<span class="sc">^</span><span class="dv">2</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1]  4 25 81</code></pre>
+</div>
+</div>
+</section>
+<section id="part-a-coin-flips-and-lln" class="level2">
+<h2 class="anchored" data-anchor-id="part-a-coin-flips-and-lln">Part A — Coin flips and LLN</h2>
+<p>Simulate coin flips and estimate (P()).</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>flips <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="fu">c</span>(<span class="st">"H"</span>,<span class="st">"T"</span>), <span class="at">size =</span> <span class="dv">50</span>, <span class="at">replace =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>flips</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "H" "T" "H" "H" "T" "H" "H" "H" "T" "T" "H" "H" "H" "H" "H" "T" "T" "T" "T"
+[20] "H" "H" "H" "H" "H" "H" "H" "T" "H" "H" "T" "T" "T" "H" "T" "H" "H" "T" "H"
+[39] "T" "T" "T" "T" "H" "T" "T" "T" "T" "T" "H" "H"</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(flips <span class="sc">==</span> <span class="st">"H"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.54</code></pre>
+</div>
+</div>
+<p>Repeat with larger sample sizes and observe stabilization.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1</span>)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (n <span class="cf">in</span> <span class="fu">c</span>(<span class="dv">50</span>, <span class="dv">500</span>, <span class="dv">5000</span>, <span class="dv">50000</span>)) {</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  flips <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="fu">c</span>(<span class="st">"H"</span>,<span class="st">"T"</span>), <span class="at">size =</span> n, <span class="at">replace =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"n ="</span>, n, <span class="st">" prop_heads ="</span>, <span class="fu">mean</span>(flips <span class="sc">==</span> <span class="st">"H"</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>n = 50  prop_heads = 0.54 
+n = 500  prop_heads = 0.518 
+n = 5000  prop_heads = 0.4902 
+n = 50000  prop_heads = 0.5034 </code></pre>
+</div>
+</div>
+<section id="running-estimate-visual-lln" class="level3">
+<h3 class="anchored" data-anchor-id="running-estimate-visual-lln">Running estimate (visual LLN)</h3>
+<p>A running estimate shows how the proportion evolves with each additional flip.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">2</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">5000</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">0</span>), <span class="at">size =</span> n, <span class="at">replace =</span> <span class="cn">TRUE</span>)  <span class="co"># 1=heads, 0=tails</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>running <span class="ot">&lt;-</span> <span class="fu">cumsum</span>(x) <span class="sc">/</span> (<span class="dv">1</span><span class="sc">:</span>n)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(running, <span class="at">type=</span><span class="st">"l"</span>, <span class="at">xlab=</span><span class="st">"Flip number"</span>, <span class="at">ylab=</span><span class="st">"Running proportion of heads"</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span><span class="fl">0.5</span>, <span class="at">lty=</span><span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="econ97_labs_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="part-b-multiple-choice-guessing" class="level2">
+<h2 class="anchored" data-anchor-id="part-b-multiple-choice-guessing">Part B — Multiple-choice guessing</h2>
+<p>A 30-question quiz, 4 choices each. If you guess randomly, each question is correct with probability (p = 1/4). The total score is:</p>
+<p><span class="math display">\[X \sim \text{Binomial}(n=30, p=1/4).\]</span></p>
+<p>The theoretical expected score is (<span class="math inline">\(E[X] = np = 30 \cdot 1/4 = 7.5\)</span>).</p>
+<p>Simulate 10,000 students:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">3</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>B <span class="ot">&lt;-</span> <span class="dv">10000</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>scores <span class="ot">&lt;-</span> <span class="fu">replicate</span>(B, <span class="fu">sum</span>(<span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>, <span class="dv">30</span>, <span class="at">replace=</span><span class="cn">TRUE</span>) <span class="sc">==</span> <span class="dv">1</span>))</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(scores)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 7.4832</code></pre>
+</div>
+</div>
+<p>Estimate (<span class="math inline">\(P(X \ge 12)\)</span>):</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(scores <span class="sc">&gt;=</span> <span class="dv">12</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.0542</code></pre>
+</div>
+</div>
+<section id="deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="deliverables">Deliverables</h3>
+<ul>
+<li>A short description (2–4 sentences) of what you see in the LLN running plot</li>
+<li>Estimated expected score and (<span class="math inline">\(P(\text{score} \ge 12)\)</span>)</li>
+<li>Compare the simulated mean to the theoretical mean 7.5</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="lab-2-counting-sampling-without-replacement" class="level1">
+<h1>Lab 2 — Counting + Sampling Without Replacement</h1>
+<section id="objectives-1" class="level2">
+<h2 class="anchored" data-anchor-id="objectives-1">Objectives</h2>
+<ul>
+<li>Model draws <strong>without replacement</strong></li>
+<li>Estimate conditional probabilities from sequential experiments</li>
+<li>Connect to <strong>hypergeometric</strong> reasoning and conditional probability rules</li>
+</ul>
+</section>
+<section id="concepts-1" class="level2">
+<h2 class="anchored" data-anchor-id="concepts-1">Concepts</h2>
+<section id="sampling-without-replacement" class="level3">
+<h3 class="anchored" data-anchor-id="sampling-without-replacement">Sampling without replacement</h3>
+<p>When items are not replaced, outcomes are <strong>dependent</strong>. For example, after drawing a sour milk, there are fewer sour milks remaining.</p>
+</section>
+<section id="conditional-probability" class="level3">
+<h3 class="anchored" data-anchor-id="conditional-probability">Conditional probability</h3>
+<p><span class="math display">\[P(A \mid B) = \frac{P(A \cap B)}{P(B)}.\]</span> In simulation, we estimate (<span class="math inline">\(P(A \mid B)\)</span>) by restricting to the trials where (B) happened: <span class="math display">\[P(A \mid B) \approx \frac{{\text{trials where }A\text{ and }B}}{{\text{trials where }B}}.\]</span></p>
+</section>
+</section>
+<section id="part-a-one-draw" class="level2">
+<h2 class="anchored" data-anchor-id="part-a-one-draw">Part A — One draw</h2>
+<p>Urn contains 7 good (G) and 3 sour (S).</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>urn <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="st">"G"</span>, <span class="dv">7</span>), <span class="fu">rep</span>(<span class="st">"S"</span>, <span class="dv">3</span>))</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">10</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>draw <span class="ot">&lt;-</span> <span class="fu">sample</span>(urn, <span class="at">size=</span><span class="dv">1</span>, <span class="at">replace=</span><span class="cn">FALSE</span>)</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>draw</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "S"</code></pre>
+</div>
+</div>
+<p>Simulate many single draws to estimate (P(S)).</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">11</span>)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>B <span class="ot">&lt;-</span> <span class="dv">10000</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>draws <span class="ot">&lt;-</span> <span class="fu">replicate</span>(B, <span class="fu">sample</span>(urn, <span class="dv">1</span>))</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(draws <span class="sc">==</span> <span class="st">"S"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.2936</code></pre>
+</div>
+</div>
+</section>
+<section id="part-b-sequential-customers-conditional-probability" class="level2">
+<h2 class="anchored" data-anchor-id="part-b-sequential-customers-conditional-probability">Part B — Sequential customers (conditional probability)</h2>
+<p>Simulate 3 sequential purchases (without replacement). Estimate: <span class="math display">\[P(\text{3rd is sour} \mid \text{2nd is not sour}).\]</span></p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">12</span>)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>B <span class="ot">&lt;-</span> <span class="dv">20000</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>second_not_sour <span class="ot">&lt;-</span> <span class="fu">logical</span>(B)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>third_sour <span class="ot">&lt;-</span> <span class="fu">logical</span>(B)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (b <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>B) {</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>  purchase <span class="ot">&lt;-</span> <span class="fu">sample</span>(urn, <span class="at">size=</span><span class="dv">3</span>, <span class="at">replace=</span><span class="cn">FALSE</span>)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>  second_not_sour[b] <span class="ot">&lt;-</span> (purchase[<span class="dv">2</span>] <span class="sc">!=</span> <span class="st">"S"</span>)</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>  third_sour[b] <span class="ot">&lt;-</span> (purchase[<span class="dv">3</span>] <span class="sc">==</span> <span class="st">"S"</span>)</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(third_sour[second_not_sour])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.3299489</code></pre>
+</div>
+</div>
+<section id="deliverables-1" class="level3">
+<h3 class="anchored" data-anchor-id="deliverables-1">Deliverables</h3>
+<ul>
+<li>Estimated (<span class="math inline">\(P(S)\)</span>) for the first draw</li>
+<li>Estimated (<span class="math inline">\(P(\text{3rd sour} \mid \text{2nd not sour})\)</span>)</li>
+<li>2–3 sentences on why conditioning changes the probability</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="lab-3-discrete-random-variables-binomial-visualization" class="level1">
+<h1>Lab 3 — Discrete Random Variables: Binomial + Visualization</h1>
+<section id="objectives-2" class="level2">
+<h2 class="anchored" data-anchor-id="objectives-2">Objectives</h2>
+<ul>
+<li>Use <code>dbinom</code>, <code>pbinom</code>, <code>rbinom</code></li>
+<li>Compare analytic probabilities to simulation</li>
+<li>Visualize a probability mass function (PMF)</li>
+</ul>
+</section>
+<section id="concepts-2" class="level2">
+<h2 class="anchored" data-anchor-id="concepts-2">Concepts</h2>
+<section id="binomial-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="binomial-distribution">Binomial distribution</h3>
+<p>If (X) counts successes in (n) independent trials with success probability (p), then: <span class="math display">\[P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}.\]</span> In R:</p>
+<ul>
+<li><code>dbinom(k, n, p)</code> gives (<span class="math inline">\(P(X=k)\)</span>)</li>
+<li><code>pbinom(k, n, p)</code> gives (<span class="math inline">\(P(X \le k)\)</span>)</li>
+<li><code>rbinom(B, n, p)</code> simulates (B) values of (X)</li>
+</ul>
+</section>
+</section>
+<section id="part-a-exact-probabilities" class="level2">
+<h2 class="anchored" data-anchor-id="part-a-exact-probabilities">Part A — Exact probabilities</h2>
+<p>Let (<span class="math inline">\(X \sim \text{Binomial}(n=20, p=0.4)\)</span>).</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dbinom</span>(<span class="dv">8</span>, <span class="at">size=</span><span class="dv">20</span>, <span class="at">prob=</span><span class="fl">0.4</span>)          <span class="co"># P(X=8)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.1797058</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">pbinom</span>(<span class="dv">8</span>, <span class="at">size=</span><span class="dv">20</span>, <span class="at">prob=</span><span class="fl">0.4</span>)          <span class="co"># P(X&lt;=8)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.5955987</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">pbinom</span>(<span class="dv">10</span>, <span class="dv">20</span>, <span class="fl">0.4</span>) <span class="sc">-</span> <span class="fu">pbinom</span>(<span class="dv">5</span>, <span class="dv">20</span>, <span class="fl">0.4</span>)  <span class="co"># P(6&lt;=X&lt;=10)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.7468798</code></pre>
+</div>
+</div>
+</section>
+<section id="part-b-simulation-check" class="level2">
+<h2 class="anchored" data-anchor-id="part-b-simulation-check">Part B — Simulation check</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">20</span>)</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">rbinom</span>(<span class="dv">50000</span>, <span class="at">size=</span><span class="dv">20</span>, <span class="at">prob=</span><span class="fl">0.4</span>)</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(x <span class="sc">==</span> <span class="dv">8</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.17742</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(x <span class="sc">&lt;=</span> <span class="dv">8</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.59272</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(x <span class="sc">&gt;=</span> <span class="dv">6</span> <span class="sc">&amp;</span> x <span class="sc">&lt;=</span> <span class="dv">10</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.74414</code></pre>
+</div>
+</div>
+</section>
+<section id="part-c-plot-the-pmf" class="level2">
+<h2 class="anchored" data-anchor-id="part-c-plot-the-pmf">Part C — Plot the PMF</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> <span class="dv">0</span><span class="sc">:</span><span class="dv">20</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>pmf <span class="ot">&lt;-</span> <span class="fu">dbinom</span>(k, <span class="dv">20</span>, <span class="fl">0.4</span>)</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(k, pmf, <span class="at">type=</span><span class="st">"h"</span>, <span class="at">xlab=</span><span class="st">"k"</span>, <span class="at">ylab=</span><span class="st">"P(X=k)"</span>)</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a><span class="fu">points</span>(k, pmf)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="econ97_labs_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="deliverables-2" class="level3">
+<h3 class="anchored" data-anchor-id="deliverables-2">Deliverables</h3>
+<ul>
+<li>Three probabilities (analytic + simulation)</li>
+<li>One paragraph explaining what a CDF is in words</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="lab-4-geometric-poisson-approximations" class="level1">
+<h1>Lab 4 — Geometric &amp; Poisson + Approximations</h1>
+<section id="objectives-3" class="level2">
+<h2 class="anchored" data-anchor-id="objectives-3">Objectives</h2>
+<ul>
+<li>Understand waiting times (geometric)</li>
+<li>Understand counts over intervals (Poisson)</li>
+<li>Compare analytic results to simulation</li>
+</ul>
+</section>
+<section id="concepts-3" class="level2">
+<h2 class="anchored" data-anchor-id="concepts-3">Concepts</h2>
+<section id="geometric-distribution-waiting-time" class="level3">
+<h3 class="anchored" data-anchor-id="geometric-distribution-waiting-time">Geometric distribution (waiting time)</h3>
+<p>If each trial succeeds with probability (p), and (T) is the number of trials until first success, then: <span class="math display">\[E[T] = \frac{1}{p}.\]</span> <strong>R note:</strong> <code>rgeom()</code> returns the number of failures before first success, so we add 1 to get trials-until-success.</p>
+</section>
+<section id="poisson-distribution-counts" class="level3">
+<h3 class="anchored" data-anchor-id="poisson-distribution-counts">Poisson distribution (counts)</h3>
+<p>If events happen randomly at average rate (<span class="math inline">\(\lambda\)</span>) in an interval, then (<span class="math inline">\(Y \sim \text{Poisson}(\lambda)\)</span>). In R:</p>
+<ul>
+<li><span class="math inline">\(dpois(y, lambda)\)</span> gives (<span class="math inline">\(P(Y=y)\)</span>)</li>
+<li><span class="math inline">\(ppois(y, lambda)\)</span> gives (<span class="math inline">\(P(Y \le y)\)</span>)</li>
+<li><span class="math inline">\(rpois(B, lambda)\)</span> simulates values</li>
+</ul>
+</section>
+</section>
+<section id="part-a-geometric-waiting-time" class="level2">
+<h2 class="anchored" data-anchor-id="part-a-geometric-waiting-time">Part A — Geometric waiting time</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">30</span>)</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fl">0.2</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>T <span class="ot">&lt;-</span> <span class="fu">rgeom</span>(<span class="dv">20000</span>, <span class="at">prob=</span>p) <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(T)   <span class="co"># compare to 1/p = 5</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 4.99595</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(T <span class="sc">&gt;</span> <span class="dv">8</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.16775</code></pre>
+</div>
+</div>
+</section>
+<section id="part-b-poisson-probabilities" class="level2">
+<h2 class="anchored" data-anchor-id="part-b-poisson-probabilities">Part B — Poisson probabilities</h2>
+<p>Let (<span class="math inline">\(Y \sim \text{Poisson}(\lambda=3)\)</span>). Compute and simulate:</p>
+<ul>
+<li>(<span class="math inline">\(P(Y=0)\)</span>)</li>
+<li>(<span class="math inline">\(P(Y \ge 5)\)</span>)</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dpois</span>(<span class="dv">0</span>, <span class="at">lambda=</span><span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.04978707</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">-</span> <span class="fu">ppois</span>(<span class="dv">4</span>, <span class="at">lambda=</span><span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.1847368</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb47"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">31</span>)</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>Y <span class="ot">&lt;-</span> <span class="fu">rpois</span>(<span class="dv">50000</span>, <span class="at">lambda=</span><span class="dv">3</span>)</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(Y <span class="sc">==</span> <span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.04894</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(Y <span class="sc">&gt;=</span> <span class="dv">5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.1853</code></pre>
+</div>
+</div>
+<section id="deliverables-3" class="level3">
+<h3 class="anchored" data-anchor-id="deliverables-3">Deliverables</h3>
+<ul>
+<li>Simulated vs theoretical (E[T])</li>
+<li>Two Poisson probabilities (analytic + simulation)</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="lab-5-continuous-random-variables-normal-central-limit-theorem" class="level1">
+<h1>Lab 5 — Continuous Random Variables + Normal + Central Limit Theorem</h1>
+<section id="objectives-4" class="level2">
+<h2 class="anchored" data-anchor-id="objectives-4">Objectives</h2>
+<ul>
+<li>Use <code>pnorm</code>, <code>rnorm</code>, <code>runif</code></li>
+<li>Compute Normal probabilities</li>
+<li>See the <strong>Central Limit Theorem (CLT)</strong> using sample means</li>
+</ul>
+</section>
+<section id="concepts-4" class="level2">
+<h2 class="anchored" data-anchor-id="concepts-4">Concepts</h2>
+<section id="normal-distribution-and-tail-probabilities" class="level3">
+<h3 class="anchored" data-anchor-id="normal-distribution-and-tail-probabilities">Normal distribution and tail probabilities</h3>
+<p>For a standard normal (<span class="math inline">\(Z \sim N(0,1)\)</span>):</p>
+<ul>
+<li><code>pnorm(a)</code> computes (<span class="math inline">\(P(Z \le a)\)</span>)</li>
+<li>tail probabilities use <code>1 - pnorm(a)</code></li>
+</ul>
+</section>
+<section id="clt-informal" class="level3">
+<h3 class="anchored" data-anchor-id="clt-informal">CLT (informal)</h3>
+<p>For many i.i.d. random variables with mean (<span class="math inline">\(\mu\)</span>) and standard deviation (<span class="math inline">\(\sigma\)</span>), the sample mean (<span class="math inline">\(\bar X\)</span>) becomes approximately Normal for large (n): <span class="math display">\[\bar X \approx N\left(\mu,\ \frac{\sigma}{\sqrt{n}}\right).\]</span></p>
+</section>
+</section>
+<section id="part-a-normal-probabilities" class="level2">
+<h2 class="anchored" data-anchor-id="part-a-normal-probabilities">Part A — Normal probabilities</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="fu">pnorm</span>(<span class="fl">1.25</span>)                  <span class="co"># P(Z&lt;1.25)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.8943502</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb53"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span><span class="sc">*</span>(<span class="dv">1</span> <span class="sc">-</span> <span class="fu">pnorm</span>(<span class="dv">2</span>))             <span class="co"># P(|Z|&gt;2)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.04550026</code></pre>
+</div>
+</div>
+</section>
+<section id="part-b-clt-with-dice-distribution-of-sample-means" class="level2">
+<h2 class="anchored" data-anchor-id="part-b-clt-with-dice-distribution-of-sample-means">Part B — CLT with dice (distribution of sample means)</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb55"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">40</span>)</span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>B <span class="ot">&lt;-</span> <span class="dv">20000</span></span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>ns <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">5</span>, <span class="dv">20</span>, <span class="dv">50</span>)</span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>means_list <span class="ot">&lt;-</span> <span class="fu">lapply</span>(ns, <span class="cf">function</span>(n) {</span>
+<span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">replicate</span>(B, <span class="fu">mean</span>(<span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, <span class="at">size=</span>n, <span class="at">replace=</span><span class="cn">TRUE</span>)))</span>
+<span id="cb55-7"><a href="#cb55-7" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb55-8"><a href="#cb55-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-9"><a href="#cb55-9" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow=</span><span class="fu">c</span>(<span class="dv">2</span>,<span class="dv">2</span>))</span>
+<span id="cb55-10"><a href="#cb55-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="fu">seq_along</span>(ns)) {</span>
+<span id="cb55-11"><a href="#cb55-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">hist</span>(means_list[[i]], <span class="at">main=</span><span class="fu">paste</span>(<span class="st">"n ="</span>, ns[i]), <span class="at">xlab=</span><span class="st">"sample mean"</span>, <span class="at">breaks=</span><span class="dv">40</span>)</span>
+<span id="cb55-12"><a href="#cb55-12" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="econ97_labs_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb56"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">1</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="part-c-compare-simulation-to-normal-approximation-optional" class="level2">
+<h2 class="anchored" data-anchor-id="part-c-compare-simulation-to-normal-approximation-optional">Part C — Compare simulation to Normal approximation (optional)</h2>
+<p>For a fair die:</p>
+<ul>
+<li>(<span class="math inline">\(\mu = 3.5\)</span>)</li>
+<li>(<span class="math inline">\(\mathrm{Var}(X) = 35/12), so (\sigma = \sqrt{35/12}\)</span>)</li>
+</ul>
+<p>Compare <span class="math inline">\(P(\bar X &gt; 4)\)</span> for (n=50).</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb57"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">50</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>xbar <span class="ot">&lt;-</span> means_list[[<span class="fu">which</span>(ns<span class="sc">==</span>n)]]</span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>p_sim <span class="ot">&lt;-</span> <span class="fu">mean</span>(xbar <span class="sc">&gt;</span> <span class="dv">4</span>)</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>mu <span class="ot">&lt;-</span> <span class="fl">3.5</span></span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>sigma <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(<span class="dv">35</span><span class="sc">/</span><span class="dv">12</span>)</span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>p_norm <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="sc">-</span> <span class="fu">pnorm</span>(<span class="dv">4</span>, <span class="at">mean=</span>mu, <span class="at">sd=</span>sigma<span class="sc">/</span><span class="fu">sqrt</span>(n))</span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-9"><a href="#cb57-9" aria-hidden="true" tabindex="-1"></a>p_sim</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.0176</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb59"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>p_norm</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.01921697</code></pre>
+</div>
+</div>
+<section id="deliverables-4" class="level3">
+<h3 class="anchored" data-anchor-id="deliverables-4">Deliverables</h3>
+<ul>
+<li>Two Normal probability answers</li>
+<li>The 2×2 histogram figure for CLT</li>
+<li>Simulation vs Normal approximation for (n=50)</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="lab-6-estimation-bootstrap-confidence-intervals" class="level1">
+<h1>Lab 6 — Estimation + Bootstrap Confidence Intervals</h1>
+<section id="objectives-5" class="level2">
+<h2 class="anchored" data-anchor-id="objectives-5">Objectives</h2>
+<ul>
+<li>Understand sampling variability for an estimator (like the mean)</li>
+<li>Use the <strong>bootstrap</strong> to build a confidence interval</li>
+</ul>
+</section>
+<section id="concepts-5" class="level2">
+<h2 class="anchored" data-anchor-id="concepts-5">Concepts</h2>
+<section id="sampling-variability" class="level3">
+<h3 class="anchored" data-anchor-id="sampling-variability">Sampling variability</h3>
+<p>Even if the population is fixed, different samples produce different sample means.</p>
+</section>
+<section id="bootstrap-idea" class="level3">
+<h3 class="anchored" data-anchor-id="bootstrap-idea">Bootstrap idea</h3>
+<p>We approximate the sampling distribution of an estimator by:</p>
+<ol type="1">
+<li>Taking your observed sample</li>
+<li>Resampling it <em>with replacement</em> many times (bootstrap samples)</li>
+<li>Recomputing the estimator (mean) each time</li>
+</ol>
+<p>A percentile bootstrap CI uses quantiles of bootstrap estimates.</p>
+</section>
+</section>
+<section id="part-a-create-a-population-and-take-a-sample" class="level2">
+<h2 class="anchored" data-anchor-id="part-a-create-a-population-and-take-a-sample">Part A — Create a population and take a sample</h2>
+<p>We use an exponential distribution as a “population” because it is skewed (helpful for seeing why Normal approximations sometimes struggle with small samples).</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb61"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">50</span>)</span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>pop <span class="ot">&lt;-</span> <span class="fu">rexp</span>(<span class="dv">200000</span>, <span class="at">rate=</span><span class="dv">1</span>)  <span class="co"># true mean is 1</span></span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>sample1 <span class="ot">&lt;-</span> <span class="fu">sample</span>(pop, <span class="at">size=</span><span class="dv">50</span>, <span class="at">replace=</span><span class="cn">FALSE</span>)</span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(sample1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1.092376</code></pre>
+</div>
+</div>
+</section>
+<section id="part-b-bootstrap-ci-for-the-mean" class="level2">
+<h2 class="anchored" data-anchor-id="part-b-bootstrap-ci-for-the-mean">Part B — Bootstrap CI for the mean</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb63"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">51</span>)</span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a>B <span class="ot">&lt;-</span> <span class="dv">5000</span></span>
+<span id="cb63-3"><a href="#cb63-3" aria-hidden="true" tabindex="-1"></a>boot_means <span class="ot">&lt;-</span> <span class="fu">replicate</span>(B, <span class="fu">mean</span>(<span class="fu">sample</span>(sample1, <span class="at">size=</span><span class="fu">length</span>(sample1), <span class="at">replace=</span><span class="cn">TRUE</span>)))</span>
+<span id="cb63-4"><a href="#cb63-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb63-5"><a href="#cb63-5" aria-hidden="true" tabindex="-1"></a>ci <span class="ot">&lt;-</span> <span class="fu">quantile</span>(boot_means, <span class="fu">c</span>(<span class="fl">0.025</span>, <span class="fl">0.975</span>))</span>
+<span id="cb63-6"><a href="#cb63-6" aria-hidden="true" tabindex="-1"></a>ci</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     2.5%     97.5% 
+0.8164046 1.4082375 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb65"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(boot_means, <span class="at">breaks=</span><span class="dv">40</span>, <span class="at">main=</span><span class="st">"Bootstrap means"</span>, <span class="at">xlab=</span><span class="st">"mean"</span>)</span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">v=</span>ci, <span class="at">lty=</span><span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="econ97_labs_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="part-c-coverage-experiment-optional-challenge" class="level2">
+<h2 class="anchored" data-anchor-id="part-c-coverage-experiment-optional-challenge">Part C — Coverage experiment (optional challenge)</h2>
+<p>Repeat many times to estimate how often a 95% bootstrap CI contains the true mean 1.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb66"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">52</span>)</span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a>R <span class="ot">&lt;-</span> <span class="dv">200</span>     <span class="co"># number of repeated experiments</span></span>
+<span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a>B <span class="ot">&lt;-</span> <span class="dv">2000</span>    <span class="co"># bootstrap reps per experiment</span></span>
+<span id="cb66-4"><a href="#cb66-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-5"><a href="#cb66-5" aria-hidden="true" tabindex="-1"></a>covers <span class="ot">&lt;-</span> <span class="fu">logical</span>(R)</span>
+<span id="cb66-6"><a href="#cb66-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-7"><a href="#cb66-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (r <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>R) {</span>
+<span id="cb66-8"><a href="#cb66-8" aria-hidden="true" tabindex="-1"></a>  sample1 <span class="ot">&lt;-</span> <span class="fu">sample</span>(pop, <span class="at">size=</span><span class="dv">50</span>, <span class="at">replace=</span><span class="cn">FALSE</span>)</span>
+<span id="cb66-9"><a href="#cb66-9" aria-hidden="true" tabindex="-1"></a>  boot_means <span class="ot">&lt;-</span> <span class="fu">replicate</span>(B, <span class="fu">mean</span>(<span class="fu">sample</span>(sample1, <span class="at">size=</span><span class="fu">length</span>(sample1), <span class="at">replace=</span><span class="cn">TRUE</span>)))</span>
+<span id="cb66-10"><a href="#cb66-10" aria-hidden="true" tabindex="-1"></a>  ci <span class="ot">&lt;-</span> <span class="fu">quantile</span>(boot_means, <span class="fu">c</span>(<span class="fl">0.025</span>, <span class="fl">0.975</span>))</span>
+<span id="cb66-11"><a href="#cb66-11" aria-hidden="true" tabindex="-1"></a>  covers[r] <span class="ot">&lt;-</span> (ci[<span class="dv">1</span>] <span class="sc">&lt;=</span> <span class="dv">1</span>) <span class="sc">&amp;</span> (<span class="dv">1</span> <span class="sc">&lt;=</span> ci[<span class="dv">2</span>])</span>
+<span id="cb66-12"><a href="#cb66-12" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb66-13"><a href="#cb66-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-14"><a href="#cb66-14" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(covers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.88</code></pre>
+</div>
+</div>
+<section id="deliverables-5" class="level3">
+<h3 class="anchored" data-anchor-id="deliverables-5">Deliverables</h3>
+<ul>
+<li>Your bootstrap 95% CI</li>
+<li>3–5 sentences interpreting what the CI means (and what it does <em>not</em> mean)</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="lab-7-hypothesis-testing-via-simulation-p-values" class="level1">
+<h1>Lab 7 — Hypothesis Testing via Simulation (p-values)</h1>
+<section id="objectives-6" class="level2">
+<h2 class="anchored" data-anchor-id="objectives-6">Objectives</h2>
+<ul>
+<li>Interpret p-values as probabilities under the null model</li>
+<li>Compute p-values by exact calculation and by simulation</li>
+<li>Visualize the null distribution</li>
+</ul>
+</section>
+<section id="concepts-6" class="level2">
+<h2 class="anchored" data-anchor-id="concepts-6">Concepts</h2>
+<section id="null-hypothesis-and-p-value" class="level3">
+<h3 class="anchored" data-anchor-id="null-hypothesis-and-p-value">Null hypothesis and p-value</h3>
+<p>A hypothesis test begins with a null model (<span class="math inline">\(H_0\)</span>). A p-value is:</p>
+<blockquote class="blockquote">
+<p>The probability, under (<span class="math inline">\(H_0\)</span>), of seeing a result at least as extreme as the one observed.</p>
+</blockquote>
+<p>This is a probability <em>about the data given the model</em>, not the probability that the model is true.</p>
+</section>
+</section>
+<section id="scenario-is-a-die-biased-toward-6" class="level2">
+<h2 class="anchored" data-anchor-id="scenario-is-a-die-biased-toward-6">Scenario: Is a die biased toward 6?</h2>
+<p>Roll a die 60 times and observe 16 sixes.</p>
+<p>Under (<span class="math inline">\(H_0\)</span>): fair die, (p = 1/6), and <span class="math display">\[X \sim \text{Binomial}(n=60, p=1/6).\]</span></p>
+</section>
+<section id="part-a-exact-one-sided-p-value" class="level2">
+<h2 class="anchored" data-anchor-id="part-a-exact-one-sided-p-value">Part A — Exact one-sided p-value</h2>
+<p>Compute (<span class="math inline">\(P(X \ge 16)\)</span>).</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb68"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">-</span> <span class="fu">pbinom</span>(<span class="dv">15</span>, <span class="at">size=</span><span class="dv">60</span>, <span class="at">prob=</span><span class="dv">1</span><span class="sc">/</span><span class="dv">6</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.0338462</code></pre>
+</div>
+</div>
+</section>
+<section id="part-b-simulation-p-value" class="level2">
+<h2 class="anchored" data-anchor-id="part-b-simulation-p-value">Part B — Simulation p-value</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb70"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">60</span>)</span>
+<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>B <span class="ot">&lt;-</span> <span class="dv">200000</span></span>
+<span id="cb70-3"><a href="#cb70-3" aria-hidden="true" tabindex="-1"></a>X <span class="ot">&lt;-</span> <span class="fu">rbinom</span>(B, <span class="at">size=</span><span class="dv">60</span>, <span class="at">prob=</span><span class="dv">1</span><span class="sc">/</span><span class="dv">6</span>)</span>
+<span id="cb70-4"><a href="#cb70-4" aria-hidden="true" tabindex="-1"></a>p_sim <span class="ot">&lt;-</span> <span class="fu">mean</span>(X <span class="sc">&gt;=</span> <span class="dv">16</span>)</span>
+<span id="cb70-5"><a href="#cb70-5" aria-hidden="true" tabindex="-1"></a>p_sim</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.03377</code></pre>
+</div>
+</div>
+</section>
+<section id="part-c-visualize-the-null-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="part-c-visualize-the-null-distribution">Part C — Visualize the null distribution</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb72"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(X, <span class="at">breaks=</span><span class="dv">50</span>, <span class="at">main=</span><span class="st">"Null distribution of # of sixes (fair die)"</span>, <span class="at">xlab=</span><span class="st">"# of sixes"</span>)</span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">v=</span><span class="dv">16</span>, <span class="at">lty=</span><span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="econ97_labs_files/figure-html/unnamed-chunk-23-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="deliverables-6" class="level3">
+<h3 class="anchored" data-anchor-id="deliverables-6">Deliverables</h3>
+<ul>
+<li>Exact p-value and simulation p-value</li>
+<li>3–5 sentences interpreting the p-value in plain English</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="general-rubric-apply-to-all-labs" class="level1">
+<h1>General Rubric (apply to all labs)</h1>
+<ul>
+<li>Code runs and is organized (30%)</li>
+<li>Numerical answers correct (30%)</li>
+<li>Written interpretation connects to probability concept (30%)</li>
+<li>Presentation: labeled axes, readable output, brief explanations (10%)</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.patrickmolligo\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Last updated July 2026</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

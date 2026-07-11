@@ -4,14 +4,14 @@
     "href": "teaching/index.html",
     "title": "Teaching",
     "section": "",
-    "text": "I teach courses in economics, probability, statistics, and data analysis.\n\n\n\n\n\n\n\n  \n\n    \n      \n        UCLA\n      \n\n      \n        Fall 2025\n      \n    \n\n    \n      ECON 105: Introduction to Mathematical Economics\n    \n\n    \n      Instructor\n    \n\n    \n      Undergraduate statistics course covering probability, random variables, estimation, confidence intervals, hypothesis testing, and applied data analysis.\n\n    \n\n    \n      \n        Course page\n      \n\n      \n        \n          Syllabus\n        \n      \n\n      \n    \n\n  \n\n\nNo matching items"
+    "text": "I have taught courses in basic and intermediate microeconomics, probability and statistics, econometrics, coding and data analysis, and mathematics. No matter the subject, I make an effort to include empirical applications and coding tutorials to help students develop practical skills they can use in their own research and future careers.\n\n\n\n\n\n\n\n  \n\n    \n      \n        UCLA\n      \n\n      \n        Fall 2024, 2025\n      \n    \n\n    \n      ECON 105: Introduction to Mathematical Economics\n    \n\n    \n      Instructor\n    \n\n    \n      Undergraduate course covering the mathematical tools needed for economic analysis.\n\n    \n\n    \n      Course page\n\n      \n        \n          Syllabus\n        \n      \n\n      \n    \n\n  \n\n  \n\n    \n      \n        UCLA\n      \n\n      \n        Spring 2026\n      \n    \n\n    \n      ECON 97: Economic Toolkit\n    \n\n    \n      Instructor\n    \n\n    \n      Undergraduate course covering the foundations of probability and statistics with a focus on coding applications.\n\n    \n\n    \n      Course page\n\n      \n        \n          Syllabus\n        \n      \n\n      \n    \n\n  \n\n\nNo matching items"
   },
   {
     "objectID": "teaching/course-listing.ejs.html",
     "href": "teaching/course-listing.ejs.html",
     "title": "Patrick A. Molligo",
     "section": "",
-    "text": "&lt;% for (const item of items) { %&gt;\n\n  \n\n    \n      &lt;% if (item.institution) { %&gt;\n        &lt;%- item.institution %&gt;\n      &lt;% } %&gt;\n\n      &lt;% if (item.term) { %&gt;\n        &lt;%- item.term %&gt;\n      &lt;% } %&gt;\n    \n\n    \n      &lt;%- item.title %&gt;\n    \n\n    &lt;% if (item.role) { %&gt;\n      &lt;%- item.role %&gt;\n    &lt;% } %&gt;\n\n    &lt;% if (item.description) { %&gt;\n      &lt;%= item.description %&gt;\n    &lt;% } %&gt;\n\n    \n      \n        Course page\n      \n\n      &lt;% if (item.syllabus) { %&gt;\n        \n          Syllabus\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.evaluations) { %&gt;\n        \n          Evaluations\n        \n      &lt;% } %&gt;\n    \n\n  \n\n&lt;% } %&gt;"
+    "text": "&lt;% for (const item of items) { %&gt;\n\n  \n\n    \n      &lt;% if (item.institution) { %&gt;\n        &lt;%- item.institution %&gt;\n      &lt;% } %&gt;\n\n      &lt;% if (item.term) { %&gt;\n        &lt;%- item.term %&gt;\n      &lt;% } %&gt;\n    \n\n    \n      &lt;%- item.title %&gt;\n    \n\n    &lt;% if (item.role) { %&gt;\n      &lt;%- item.role %&gt;\n    &lt;% } %&gt;\n\n    &lt;% if (item.description) { %&gt;\n      &lt;%= item.description %&gt;\n    &lt;% } %&gt;\n\n    \n      Course page\n\n      &lt;% if (item.syllabus) { %&gt;\n        \n          Syllabus\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.evaluations) { %&gt;\n        \n          Evaluations\n        \n      &lt;% } %&gt;\n    \n\n  \n\n&lt;% } %&gt;"
   },
   {
     "objectID": "research/papers/tpu.html",
@@ -74,7 +74,7 @@
     "href": "research/index.html",
     "title": "Research",
     "section": "",
-    "text": "My research interests include labor economics, economic history, and the economics of education. I study how public policy and educational institutions shape human-capital investment and labor-market outcomes. I have helped construct new datasets using both archival digitization work and textual analysis of historical documents. Below is a list of my research papers, including published work and working papers.\n\n\n\n\n\n\n\n  \n\n    \n      \n        Job Market Paper\n      \n\n      \n        2026\n      \n    \n\n    \n      The G.I. Bill and Vocational Training\n    \n\n    \n\n    \n\n    \n      This paper studies how the educational provisions of the World War II and Korean War G.I. Bills affected vocational training, educational attainment, and long-run labor-market outcomes.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n  \n\n    \n      \n        Published\n      \n\n      \n        2020\n      \n    \n\n    \n      The Economic Effects Of Trade Policy Uncertainty\n    \n\n    \n\n    \n\n    \n      This paper uses a novel measure of trade policy uncertainty (TPU) to study the effects of unexpected changes in policy on the U.S. economy. The paper finds that increases in TPU reduce business investment and economic activity.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n\nNo matching items"
+    "text": "My research interests include labor economics, economic history, and the economics of education. I study how public policy and educational institutions shape human-capital investment and labor-market outcomes. I have helped construct new datasets using both archival digitization work and textual analysis of historical documents. Below is a list of my research papers, including published work and working papers.\n\n\n\n\n\n\n\n  \n\n    \n      \n        Working Paper\n      \n\n      \n        2026\n      \n    \n\n    \n      The G.I. Bill and Vocational Training\n    \n\n    \n\n    \n\n    \n      This paper studies how the educational provisions of the World War II and Korean War G.I. Bills affected vocational training, educational attainment, and long-run labor-market outcomes.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n  \n\n    \n      \n        Published\n      \n\n      \n        2020\n      \n    \n\n    \n      The Economic Effects Of Trade Policy Uncertainty\n    \n\n    \n\n    \n\n    \n      This paper uses a novel measure of trade policy uncertainty (TPU) to study the effects of unexpected changes in policy on the U.S. economy. The paper finds that increases in TPU reduce business investment and economic activity.\n\n    \n\n    \n\n      \n        Details\n      \n\n      \n        \n          PDF\n        \n      \n\n      \n\n      \n\n      \n\n    \n\n    \n\n  \n\n\nNo matching items"
   },
   {
     "objectID": "research/papers/gi-bill.html",
@@ -144,21 +144,21 @@
     "href": "teaching/courses/econ-105.html",
     "title": "ECON 105: Introduction to Mathematical Economics",
     "section": "",
-    "text": "This course covers the essential mathematical and computing skills needed to study modern economics. We will review both differential and integral calculus (first derivatives, partial derivatives, optimization, integration), as well as the basics of Excel and R (a statistical programming language)."
+    "text": "UCLA · Instructor · Fall 2024, 2025"
   },
   {
     "objectID": "teaching/courses/econ-105.html#course-overview",
     "href": "teaching/courses/econ-105.html#course-overview",
     "title": "ECON 105: Introduction to Mathematical Economics",
     "section": "",
-    "text": "This course covers the essential mathematical and computing skills needed to study modern economics. We will review both differential and integral calculus (first derivatives, partial derivatives, optimization, integration), as well as the basics of Excel and R (a statistical programming language)."
+    "text": "This course covers the essential mathematical and computing skills needed to study modern economics. It reviews both differential and integral calculus (first derivatives, partial derivatives, optimization, integration), as well as the basics of Excel and R (a statistical programming language)."
   },
   {
     "objectID": "teaching/courses/econ-105.html#topics",
     "href": "teaching/courses/econ-105.html#topics",
     "title": "ECON 105: Introduction to Mathematical Economics",
     "section": "Topics",
-    "text": "Topics\n\nProbability and conditional probability\nDiscrete and continuous random variables\nExpected value and variance\nBinomial, Poisson, uniform, and normal distributions\nCentral limit theorem\nConfidence intervals\nHypothesis testing\nIntroductory data analysis in Excel and R"
+    "text": "Topics\n\nFunctions and derivatives Logs and exponents Unconstrained optimization Constrained optimization Lagrange multipliers Consumer theory Implicit functions Elasticities Slutsky equation Producer theory Excel R"
   },
   {
     "objectID": "teaching/courses/econ-105.html#materials",
@@ -187,5 +187,334 @@
     "title": "Changelog",
     "section": "",
     "text": "ORCID integration\nGoogle Scholar icon\nSoftware & Data page\nResearch filtering"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html",
+    "title": "Econ 97 Labs",
+    "section": "",
+    "text": "These labs are designed to reinforce probability theory by using simulation and computational verification in R.\nWhy simulation helps in probability:\n\nMany probabilities are defined as long-run frequencies (e.g., the chance of heads is the limiting proportion of heads in repeated coin flips).\nSimulation lets us approximate theoretical probabilities and see concepts like the Law of Large Numbers and Central Limit Theorem in action.\nSimulation is also a practical tool when exact calculations are difficult.\n\nThroughout, we will use:\n\nRandom sampling (sample(), rbinom(), etc.)\nIndicators like (event) which evaluate to TRUE/FALSE, and means of indicators to estimate probabilities\nRepetition (replicate()) to generate many trials\nVisualization (plot(), hist()) to connect distributions to data"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives",
+    "title": "Econ 97 Labs",
+    "section": "Objectives",
+    "text": "Objectives\n\nLearn R basics: vectors, arithmetic, logical comparisons, and summaries\nEstimate probabilities through simulation\nSee the Law of Large Numbers (LLN): the sample proportion approaches the true probability as sample size grows"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts",
+    "title": "Econ 97 Labs",
+    "section": "Concepts",
+    "text": "Concepts\n\nProbability as a long-run frequency\nIf we repeat an experiment many times, the proportion of times an event occurs tends to stabilize around the true probability. In simulation, we approximate a probability by:\n\\[P(A) \\approx \\frac{{\\text{trials where }A\\text{ happens}}}{\\text{number of trials}}.\\]\n\n\nIndicator variables\nIf we define an indicator (I_A) that equals 1 when event (A) occurs and 0 otherwise, then:\n\nThe average of (I_A) across many trials estimates (P(A)).\nIn R, (condition) produces TRUE/FALSE, and mean(TRUE/FALSE) treats TRUE as 1 and FALSE as 0."
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#warm-up-run-each-line",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#warm-up-run-each-line",
+    "title": "Econ 97 Labs",
+    "section": "Warm-up (run each line)",
+    "text": "Warm-up (run each line)\n\n1:10\n\n [1]  1  2  3  4  5  6  7  8  9 10\n\nsum(1:10)\n\n[1] 55\n\nmean(1:10)\n\n[1] 5.5\n\nc(2, 5, 9)^2\n\n[1]  4 25 81"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-coin-flips-and-lln",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-coin-flips-and-lln",
+    "title": "Econ 97 Labs",
+    "section": "Part A — Coin flips and LLN",
+    "text": "Part A — Coin flips and LLN\nSimulate coin flips and estimate (P()).\n\nset.seed(1)\nflips &lt;- sample(c(\"H\",\"T\"), size = 50, replace = TRUE)\nflips\n\n [1] \"H\" \"T\" \"H\" \"H\" \"T\" \"H\" \"H\" \"H\" \"T\" \"T\" \"H\" \"H\" \"H\" \"H\" \"H\" \"T\" \"T\" \"T\" \"T\"\n[20] \"H\" \"H\" \"H\" \"H\" \"H\" \"H\" \"H\" \"T\" \"H\" \"H\" \"T\" \"T\" \"T\" \"H\" \"T\" \"H\" \"H\" \"T\" \"H\"\n[39] \"T\" \"T\" \"T\" \"T\" \"H\" \"T\" \"T\" \"T\" \"T\" \"T\" \"H\" \"H\"\n\nmean(flips == \"H\")\n\n[1] 0.54\n\n\nRepeat with larger sample sizes and observe stabilization.\n\nset.seed(1)\nfor (n in c(50, 500, 5000, 50000)) {\n  flips &lt;- sample(c(\"H\",\"T\"), size = n, replace = TRUE)\n  cat(\"n =\", n, \" prop_heads =\", mean(flips == \"H\"), \"\\n\")\n}\n\nn = 50  prop_heads = 0.54 \nn = 500  prop_heads = 0.518 \nn = 5000  prop_heads = 0.4902 \nn = 50000  prop_heads = 0.5034 \n\n\n\nRunning estimate (visual LLN)\nA running estimate shows how the proportion evolves with each additional flip.\n\nset.seed(2)\nn &lt;- 5000\nx &lt;- sample(c(1,0), size = n, replace = TRUE)  # 1=heads, 0=tails\nrunning &lt;- cumsum(x) / (1:n)\nplot(running, type=\"l\", xlab=\"Flip number\", ylab=\"Running proportion of heads\")\nabline(h=0.5, lty=2)"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-multiple-choice-guessing",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-multiple-choice-guessing",
+    "title": "Econ 97 Labs",
+    "section": "Part B — Multiple-choice guessing",
+    "text": "Part B — Multiple-choice guessing\nA 30-question quiz, 4 choices each. If you guess randomly, each question is correct with probability (p = 1/4). The total score is:\n\\[X \\sim \\text{Binomial}(n=30, p=1/4).\\]\nThe theoretical expected score is (\\(E[X] = np = 30 \\cdot 1/4 = 7.5\\)).\nSimulate 10,000 students:\n\nset.seed(3)\nB &lt;- 10000\nscores &lt;- replicate(B, sum(sample(1:4, 30, replace=TRUE) == 1))\nmean(scores)\n\n[1] 7.4832\n\n\nEstimate (\\(P(X \\ge 12)\\)):\n\nmean(scores &gt;= 12)\n\n[1] 0.0542\n\n\n\nDeliverables\n\nA short description (2–4 sentences) of what you see in the LLN running plot\nEstimated expected score and (\\(P(\\text{score} \\ge 12)\\))\nCompare the simulated mean to the theoretical mean 7.5"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-1",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-1",
+    "title": "Econ 97 Labs",
+    "section": "Objectives",
+    "text": "Objectives\n\nModel draws without replacement\nEstimate conditional probabilities from sequential experiments\nConnect to hypergeometric reasoning and conditional probability rules"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-1",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-1",
+    "title": "Econ 97 Labs",
+    "section": "Concepts",
+    "text": "Concepts\n\nSampling without replacement\nWhen items are not replaced, outcomes are dependent. For example, after drawing a sour milk, there are fewer sour milks remaining.\n\n\nConditional probability\n\\[P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}.\\] In simulation, we estimate (\\(P(A \\mid B)\\)) by restricting to the trials where (B) happened: \\[P(A \\mid B) \\approx \\frac{{\\text{trials where }A\\text{ and }B}}{{\\text{trials where }B}}.\\]"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-one-draw",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-one-draw",
+    "title": "Econ 97 Labs",
+    "section": "Part A — One draw",
+    "text": "Part A — One draw\nUrn contains 7 good (G) and 3 sour (S).\n\nurn &lt;- c(rep(\"G\", 7), rep(\"S\", 3))\nset.seed(10)\ndraw &lt;- sample(urn, size=1, replace=FALSE)\ndraw\n\n[1] \"S\"\n\n\nSimulate many single draws to estimate (P(S)).\n\nset.seed(11)\nB &lt;- 10000\ndraws &lt;- replicate(B, sample(urn, 1))\nmean(draws == \"S\")\n\n[1] 0.2936"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-sequential-customers-conditional-probability",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-sequential-customers-conditional-probability",
+    "title": "Econ 97 Labs",
+    "section": "Part B — Sequential customers (conditional probability)",
+    "text": "Part B — Sequential customers (conditional probability)\nSimulate 3 sequential purchases (without replacement). Estimate: \\[P(\\text{3rd is sour} \\mid \\text{2nd is not sour}).\\]\n\nset.seed(12)\nB &lt;- 20000\n\nsecond_not_sour &lt;- logical(B)\nthird_sour &lt;- logical(B)\n\nfor (b in 1:B) {\n  purchase &lt;- sample(urn, size=3, replace=FALSE)\n  second_not_sour[b] &lt;- (purchase[2] != \"S\")\n  third_sour[b] &lt;- (purchase[3] == \"S\")\n}\n\nmean(third_sour[second_not_sour])\n\n[1] 0.3299489\n\n\n\nDeliverables\n\nEstimated (\\(P(S)\\)) for the first draw\nEstimated (\\(P(\\text{3rd sour} \\mid \\text{2nd not sour})\\))\n2–3 sentences on why conditioning changes the probability"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-2",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-2",
+    "title": "Econ 97 Labs",
+    "section": "Objectives",
+    "text": "Objectives\n\nUse dbinom, pbinom, rbinom\nCompare analytic probabilities to simulation\nVisualize a probability mass function (PMF)"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-2",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-2",
+    "title": "Econ 97 Labs",
+    "section": "Concepts",
+    "text": "Concepts\n\nBinomial distribution\nIf (X) counts successes in (n) independent trials with success probability (p), then: \\[P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k}.\\] In R:\n\ndbinom(k, n, p) gives (\\(P(X=k)\\))\npbinom(k, n, p) gives (\\(P(X \\le k)\\))\nrbinom(B, n, p) simulates (B) values of (X)"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-exact-probabilities",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-exact-probabilities",
+    "title": "Econ 97 Labs",
+    "section": "Part A — Exact probabilities",
+    "text": "Part A — Exact probabilities\nLet (\\(X \\sim \\text{Binomial}(n=20, p=0.4)\\)).\n\ndbinom(8, size=20, prob=0.4)          # P(X=8)\n\n[1] 0.1797058\n\npbinom(8, size=20, prob=0.4)          # P(X&lt;=8)\n\n[1] 0.5955987\n\npbinom(10, 20, 0.4) - pbinom(5, 20, 0.4)  # P(6&lt;=X&lt;=10)\n\n[1] 0.7468798"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-simulation-check",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-simulation-check",
+    "title": "Econ 97 Labs",
+    "section": "Part B — Simulation check",
+    "text": "Part B — Simulation check\n\nset.seed(20)\nx &lt;- rbinom(50000, size=20, prob=0.4)\n\nmean(x == 8)\n\n[1] 0.17742\n\nmean(x &lt;= 8)\n\n[1] 0.59272\n\nmean(x &gt;= 6 & x &lt;= 10)\n\n[1] 0.74414"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-c-plot-the-pmf",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-c-plot-the-pmf",
+    "title": "Econ 97 Labs",
+    "section": "Part C — Plot the PMF",
+    "text": "Part C — Plot the PMF\n\nk &lt;- 0:20\npmf &lt;- dbinom(k, 20, 0.4)\nplot(k, pmf, type=\"h\", xlab=\"k\", ylab=\"P(X=k)\")\npoints(k, pmf)\n\n\n\n\n\n\n\n\n\nDeliverables\n\nThree probabilities (analytic + simulation)\nOne paragraph explaining what a CDF is in words"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-3",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-3",
+    "title": "Econ 97 Labs",
+    "section": "Objectives",
+    "text": "Objectives\n\nUnderstand waiting times (geometric)\nUnderstand counts over intervals (Poisson)\nCompare analytic results to simulation"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-3",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-3",
+    "title": "Econ 97 Labs",
+    "section": "Concepts",
+    "text": "Concepts\n\nGeometric distribution (waiting time)\nIf each trial succeeds with probability (p), and (T) is the number of trials until first success, then: \\[E[T] = \\frac{1}{p}.\\] R note: rgeom() returns the number of failures before first success, so we add 1 to get trials-until-success.\n\n\nPoisson distribution (counts)\nIf events happen randomly at average rate (\\(\\lambda\\)) in an interval, then (\\(Y \\sim \\text{Poisson}(\\lambda)\\)). In R:\n\n\\(dpois(y, lambda)\\) gives (\\(P(Y=y)\\))\n\\(ppois(y, lambda)\\) gives (\\(P(Y \\le y)\\))\n\\(rpois(B, lambda)\\) simulates values"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-geometric-waiting-time",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-geometric-waiting-time",
+    "title": "Econ 97 Labs",
+    "section": "Part A — Geometric waiting time",
+    "text": "Part A — Geometric waiting time\n\nset.seed(30)\np &lt;- 0.2\nT &lt;- rgeom(20000, prob=p) + 1\nmean(T)   # compare to 1/p = 5\n\n[1] 4.99595\n\nmean(T &gt; 8)\n\n[1] 0.16775"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-poisson-probabilities",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-poisson-probabilities",
+    "title": "Econ 97 Labs",
+    "section": "Part B — Poisson probabilities",
+    "text": "Part B — Poisson probabilities\nLet (\\(Y \\sim \\text{Poisson}(\\lambda=3)\\)). Compute and simulate:\n\n(\\(P(Y=0)\\))\n(\\(P(Y \\ge 5)\\))\n\n\ndpois(0, lambda=3)\n\n[1] 0.04978707\n\n1 - ppois(4, lambda=3)\n\n[1] 0.1847368\n\nset.seed(31)\nY &lt;- rpois(50000, lambda=3)\nmean(Y == 0)\n\n[1] 0.04894\n\nmean(Y &gt;= 5)\n\n[1] 0.1853\n\n\n\nDeliverables\n\nSimulated vs theoretical (E[T])\nTwo Poisson probabilities (analytic + simulation)"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-4",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-4",
+    "title": "Econ 97 Labs",
+    "section": "Objectives",
+    "text": "Objectives\n\nUse pnorm, rnorm, runif\nCompute Normal probabilities\nSee the Central Limit Theorem (CLT) using sample means"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-4",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-4",
+    "title": "Econ 97 Labs",
+    "section": "Concepts",
+    "text": "Concepts\n\nNormal distribution and tail probabilities\nFor a standard normal (\\(Z \\sim N(0,1)\\)):\n\npnorm(a) computes (\\(P(Z \\le a)\\))\ntail probabilities use 1 - pnorm(a)\n\n\n\nCLT (informal)\nFor many i.i.d. random variables with mean (\\(\\mu\\)) and standard deviation (\\(\\sigma\\)), the sample mean (\\(\\bar X\\)) becomes approximately Normal for large (n): \\[\\bar X \\approx N\\left(\\mu,\\ \\frac{\\sigma}{\\sqrt{n}}\\right).\\]"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-normal-probabilities",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-normal-probabilities",
+    "title": "Econ 97 Labs",
+    "section": "Part A — Normal probabilities",
+    "text": "Part A — Normal probabilities\n\npnorm(1.25)                  # P(Z&lt;1.25)\n\n[1] 0.8943502\n\n2*(1 - pnorm(2))             # P(|Z|&gt;2)\n\n[1] 0.04550026"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-clt-with-dice-distribution-of-sample-means",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-clt-with-dice-distribution-of-sample-means",
+    "title": "Econ 97 Labs",
+    "section": "Part B — CLT with dice (distribution of sample means)",
+    "text": "Part B — CLT with dice (distribution of sample means)\n\nset.seed(40)\nB &lt;- 20000\nns &lt;- c(1, 5, 20, 50)\n\nmeans_list &lt;- lapply(ns, function(n) {\n  replicate(B, mean(sample(1:6, size=n, replace=TRUE)))\n})\n\npar(mfrow=c(2,2))\nfor (i in seq_along(ns)) {\n  hist(means_list[[i]], main=paste(\"n =\", ns[i]), xlab=\"sample mean\", breaks=40)\n}\n\n\n\n\n\n\n\npar(mfrow=c(1,1))"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-c-compare-simulation-to-normal-approximation-optional",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-c-compare-simulation-to-normal-approximation-optional",
+    "title": "Econ 97 Labs",
+    "section": "Part C — Compare simulation to Normal approximation (optional)",
+    "text": "Part C — Compare simulation to Normal approximation (optional)\nFor a fair die:\n\n(\\(\\mu = 3.5\\))\n(\\(\\mathrm{Var}(X) = 35/12), so (\\sigma = \\sqrt{35/12}\\))\n\nCompare \\(P(\\bar X &gt; 4)\\) for (n=50).\n\nn &lt;- 50\nxbar &lt;- means_list[[which(ns==n)]]\np_sim &lt;- mean(xbar &gt; 4)\n\nmu &lt;- 3.5\nsigma &lt;- sqrt(35/12)\np_norm &lt;- 1 - pnorm(4, mean=mu, sd=sigma/sqrt(n))\n\np_sim\n\n[1] 0.0176\n\np_norm\n\n[1] 0.01921697\n\n\n\nDeliverables\n\nTwo Normal probability answers\nThe 2×2 histogram figure for CLT\nSimulation vs Normal approximation for (n=50)"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-5",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-5",
+    "title": "Econ 97 Labs",
+    "section": "Objectives",
+    "text": "Objectives\n\nUnderstand sampling variability for an estimator (like the mean)\nUse the bootstrap to build a confidence interval"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-5",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-5",
+    "title": "Econ 97 Labs",
+    "section": "Concepts",
+    "text": "Concepts\n\nSampling variability\nEven if the population is fixed, different samples produce different sample means.\n\n\nBootstrap idea\nWe approximate the sampling distribution of an estimator by:\n\nTaking your observed sample\nResampling it with replacement many times (bootstrap samples)\nRecomputing the estimator (mean) each time\n\nA percentile bootstrap CI uses quantiles of bootstrap estimates."
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-create-a-population-and-take-a-sample",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-create-a-population-and-take-a-sample",
+    "title": "Econ 97 Labs",
+    "section": "Part A — Create a population and take a sample",
+    "text": "Part A — Create a population and take a sample\nWe use an exponential distribution as a “population” because it is skewed (helpful for seeing why Normal approximations sometimes struggle with small samples).\n\nset.seed(50)\npop &lt;- rexp(200000, rate=1)  # true mean is 1\nsample1 &lt;- sample(pop, size=50, replace=FALSE)\nmean(sample1)\n\n[1] 1.092376"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-bootstrap-ci-for-the-mean",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-bootstrap-ci-for-the-mean",
+    "title": "Econ 97 Labs",
+    "section": "Part B — Bootstrap CI for the mean",
+    "text": "Part B — Bootstrap CI for the mean\n\nset.seed(51)\nB &lt;- 5000\nboot_means &lt;- replicate(B, mean(sample(sample1, size=length(sample1), replace=TRUE)))\n\nci &lt;- quantile(boot_means, c(0.025, 0.975))\nci\n\n     2.5%     97.5% \n0.8164046 1.4082375 \n\nhist(boot_means, breaks=40, main=\"Bootstrap means\", xlab=\"mean\")\nabline(v=ci, lty=2)"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-c-coverage-experiment-optional-challenge",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-c-coverage-experiment-optional-challenge",
+    "title": "Econ 97 Labs",
+    "section": "Part C — Coverage experiment (optional challenge)",
+    "text": "Part C — Coverage experiment (optional challenge)\nRepeat many times to estimate how often a 95% bootstrap CI contains the true mean 1.\n\nset.seed(52)\nR &lt;- 200     # number of repeated experiments\nB &lt;- 2000    # bootstrap reps per experiment\n\ncovers &lt;- logical(R)\n\nfor (r in 1:R) {\n  sample1 &lt;- sample(pop, size=50, replace=FALSE)\n  boot_means &lt;- replicate(B, mean(sample(sample1, size=length(sample1), replace=TRUE)))\n  ci &lt;- quantile(boot_means, c(0.025, 0.975))\n  covers[r] &lt;- (ci[1] &lt;= 1) & (1 &lt;= ci[2])\n}\n\nmean(covers)\n\n[1] 0.88\n\n\n\nDeliverables\n\nYour bootstrap 95% CI\n3–5 sentences interpreting what the CI means (and what it does not mean)"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-6",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#objectives-6",
+    "title": "Econ 97 Labs",
+    "section": "Objectives",
+    "text": "Objectives\n\nInterpret p-values as probabilities under the null model\nCompute p-values by exact calculation and by simulation\nVisualize the null distribution"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-6",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#concepts-6",
+    "title": "Econ 97 Labs",
+    "section": "Concepts",
+    "text": "Concepts\n\nNull hypothesis and p-value\nA hypothesis test begins with a null model (\\(H_0\\)). A p-value is:\n\nThe probability, under (\\(H_0\\)), of seeing a result at least as extreme as the one observed.\n\nThis is a probability about the data given the model, not the probability that the model is true."
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#scenario-is-a-die-biased-toward-6",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#scenario-is-a-die-biased-toward-6",
+    "title": "Econ 97 Labs",
+    "section": "Scenario: Is a die biased toward 6?",
+    "text": "Scenario: Is a die biased toward 6?\nRoll a die 60 times and observe 16 sixes.\nUnder (\\(H_0\\)): fair die, (p = 1/6), and \\[X \\sim \\text{Binomial}(n=60, p=1/6).\\]"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-exact-one-sided-p-value",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-a-exact-one-sided-p-value",
+    "title": "Econ 97 Labs",
+    "section": "Part A — Exact one-sided p-value",
+    "text": "Part A — Exact one-sided p-value\nCompute (\\(P(X \\ge 16)\\)).\n\n1 - pbinom(15, size=60, prob=1/6)\n\n[1] 0.0338462"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-simulation-p-value",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-b-simulation-p-value",
+    "title": "Econ 97 Labs",
+    "section": "Part B — Simulation p-value",
+    "text": "Part B — Simulation p-value\n\nset.seed(60)\nB &lt;- 200000\nX &lt;- rbinom(B, size=60, prob=1/6)\np_sim &lt;- mean(X &gt;= 16)\np_sim\n\n[1] 0.03377"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-c-visualize-the-null-distribution",
+    "href": "files/teaching/econ97/coding/R labs/econ97_labs.html#part-c-visualize-the-null-distribution",
+    "title": "Econ 97 Labs",
+    "section": "Part C — Visualize the null distribution",
+    "text": "Part C — Visualize the null distribution\n\nhist(X, breaks=50, main=\"Null distribution of # of sixes (fair die)\", xlab=\"# of sixes\")\nabline(v=16, lty=2)\n\n\n\n\n\n\n\n\n\nDeliverables\n\nExact p-value and simulation p-value\n3–5 sentences interpreting the p-value in plain English"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/clt/clt_note.html",
+    "href": "files/teaching/econ97/coding/R labs/clt/clt_note.html",
+    "title": "Central Limit Theorem",
+    "section": "",
+    "text": "To understand the central limit theorem (CLT) consider the following exercise. Every day I come to UCLA and measure the heights of a random subset of the student population. I find 50 students, ask their heights, and record the data. Each day I compute the sample average of the 50 measurements, computed as:\n\\[\\bar{X}_n = \\frac{1}{n}\\sum_{i=1}^nX_i = \\frac{1}{50}\\sum_{i=1}^{50}X_i\\] The CLT says that if I do this experiment repeatedly over many days, my list of sample averages will approximately follow a normal distribution. Written mathematically:\n\\[\\bar{X}_n \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)\\] Here \\(\\mu\\) and \\(\\sigma^2\\) are the population mean and variance. This result holds no matter what the distribution of UCLA student heights is. We can use software, such as R, to simulate the CLT using a variety of probability distributions."
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/clt/clt_note.html#what-is-the-central-limit-theorem",
+    "href": "files/teaching/econ97/coding/R labs/clt/clt_note.html#what-is-the-central-limit-theorem",
+    "title": "Central Limit Theorem",
+    "section": "",
+    "text": "To understand the central limit theorem (CLT) consider the following exercise. Every day I come to UCLA and measure the heights of a random subset of the student population. I find 50 students, ask their heights, and record the data. Each day I compute the sample average of the 50 measurements, computed as:\n\\[\\bar{X}_n = \\frac{1}{n}\\sum_{i=1}^nX_i = \\frac{1}{50}\\sum_{i=1}^{50}X_i\\] The CLT says that if I do this experiment repeatedly over many days, my list of sample averages will approximately follow a normal distribution. Written mathematically:\n\\[\\bar{X}_n \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)\\] Here \\(\\mu\\) and \\(\\sigma^2\\) are the population mean and variance. This result holds no matter what the distribution of UCLA student heights is. We can use software, such as R, to simulate the CLT using a variety of probability distributions."
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/clt/clt_note.html#simulation",
+    "href": "files/teaching/econ97/coding/R labs/clt/clt_note.html#simulation",
+    "title": "Central Limit Theorem",
+    "section": "Simulation",
+    "text": "Simulation\nIn the code below I use R’s built-in random number generators to produce 4 populations with different distributions: uniform, exponential, normal, and binomial. I set each population size at 500,000.\n\nset.seed(33) # Fix R's random number generator for reproducible results \n\npop_size    &lt;- 500000\nsample_size &lt;- 50\nnum_samples &lt;- 5000\n\npopulation_unif &lt;- runif(pop_size)\npopulation_exp  &lt;- rexp(pop_size, rate = 2)\npopulation_norm &lt;- rnorm(pop_size, mean = 5, sd = 3)\npopulation_bin  &lt;- rbinom(pop_size, size = 5, prob = 0.3)\n\nWe now have:\n\nPop. 1 \\(\\sim\\) Unif[0, 1]\nPop. 2 \\(\\sim\\) Exp(\\(\\lambda=2\\))\nPop. 3 \\(\\sim\\) N(\\(\\mu=5\\), \\(\\sigma^2=9\\))\nPop. 4 \\(\\sim\\) Bin(\\(n=5\\), \\(p=0.3\\))\n\nEach of these distributions has a different mean, variance, shape, and support.\n\nThe plots below show each simulated population distribution. Recall the mean and variance formulas for each:\n\nUniform: \\(E[X] = \\frac{a+b}{2} = 1/2\\), \\(Var(X) = \\frac{(b-a)^2}{12} = 0.08\\)\nExponential: \\(E[X] = 1/\\lambda = 1/2\\), \\(Var(X) = 1/\\lambda^2 = 0.25\\)\nNormal: \\(E[X]=5\\), \\(Var(X) = 9\\)\nExponential: \\(E[X] = np = 1.5\\), \\(Var(X) = np(1-p)=1.05\\)\n\n\n\n\n\n\n\n\n\n\nNow let’s take sample draws from these distributions. For each sample, compute the average. Repeat this 5,000 times, each with a sample size of 50.\nI plot the sample mean distributions on the next page. (The code I use to draw from the populations and plot the sample means is at the end of this document)\nNote how the sample means always follow a normal distribution. Also note that the mean and variances align with the formulas:\n\\[E[\\bar{X}] = \\mu \\;\\;\\;\\;\\; Var(\\bar{X}) = \\frac{\\sigma^2}{n}\\]"
+  },
+  {
+    "objectID": "files/teaching/econ97/coding/R labs/clt/clt_note.html#code-for-plotting-functions",
+    "href": "files/teaching/econ97/coding/R labs/clt/clt_note.html#code-for-plotting-functions",
+    "title": "Central Limit Theorem",
+    "section": "Code for plotting functions",
+    "text": "Code for plotting functions\n\nlibrary(tidyverse)\n#----------------------------------------------\n# Plot functions\n#----------------------------------------------\nplot_pop &lt;- function(pop_dist, binwidth, dist_name, ann_x=NULL, ann_y=NULL) {\n  \n  pop_mean &lt;- round(mean(pop_dist), 2)\n  pop_sd   &lt;- round(sd(pop_dist), 2)\n  pop_N    &lt;- length(pop_dist) \n  \n  ann_x &lt;- ifelse(is.null(ann_x), 0.65, ann_x)\n  ann_y &lt;- ifelse(is.null(ann_y), 0.7, ann_y)\n  \n  data.frame(val = pop_dist) |&gt;\n    ggplot(aes(x = val)) +\n      geom_histogram(binwidth = binwidth, alpha = 0.5, color=\"black\") +\n      xlab(NULL) + ylab(NULL) +\n      labs(title = paste0(dist_name, \" Distribution\")) +\n      theme_bw() +\n      scale_y_continuous(labels = NULL) +\n      #scale_x_continuous(labels = NULL) +\n      annotate(\"label\", x = I(ann_x), y = I(ann_y),\n               label = paste(\"Mean:\", pop_mean, \n                             \"\\nSD:\", pop_sd),\n               color = \"black\", hjust = \"left\") \n}\n\nplot_means &lt;- function(pop_dist, num_samples, sample_size, \n                       binwidth, dist_name, ann_x=NULL, ann_y=NULL) {\n  \n  mean_draws &lt;- replicate(num_samples, \n                          mean(sample(pop_dist, sample_size, replace = TRUE)))\n  \n  s_mean &lt;- round(mean(mean_draws), 2)\n  s_sd   &lt;- round(sd(mean_draws), 2)\n  \n  ann_x &lt;- ifelse(is.null(ann_x), 0.6, ann_x)\n  ann_y &lt;- ifelse(is.null(ann_y), 0.7, ann_y)\n  \n  data.frame(val = mean_draws) |&gt;\n    ggplot(aes(x = val)) +\n    geom_histogram(binwidth = binwidth, alpha = 0.5, color=\"black\") +\n    xlab(NULL) + ylab(NULL) +\n    labs(title = paste0(\"Sample Means: \", dist_name)) +\n    theme_bw() +\n    scale_y_continuous(labels = NULL) +\n    annotate(\"label\", x = I(ann_x), y = I(ann_y),\n             label = paste(\"Mean:\", s_mean, \n                           \"\\nSD:\", s_sd),\n             color = \"black\", hjust = \"left\") \n}\n#-------------------------------------------------------------------------------\n#-------------------------------------------------------------------------------\n\n\nlibrary(gridExtra)\n\n# Plot population distributions\ngrid.arrange(\n  plot_pop(population_exp, binwidth = 0.5, dist_name = \"Exponential\"),\n  plot_pop(population_norm, binwidth = 1, dist_name = \"Normal\"), \n  plot_pop(population_unif, binwidth = 0.1, dist_name = \"Uniform\"), \n  plot_pop(population_bin, binwidth = 0.1, dist_name = \"Binomial\"),\n  ncol = 2)\n\n# Take repeated samples and plot the sample means \ngrid.arrange(\n  plot_means(population_exp, num_samples = num_samples, \n             sample_size = sample_size, binwidth = 0.1, \n             dist_name = \"Exponential\"),\n  plot_means(population_norm, num_samples = num_samples, \n             sample_size = sample_size, binwidth = 0.1, \n             dist_name = \"Normal\"), \n  plot_means(population_unif, num_samples = num_samples, \n             sample_size = sample_size, binwidth = 0.01, \n             dist_name = \"Uniform\"), \n  plot_means(population_bin, num_samples = num_samples, \n             sample_size = sample_size, binwidth = 0.05, \n             dist_name = \"Binomial\"),\n  ncol = 2)"
+  },
+  {
+    "objectID": "research/papers/gi-bill.html#citation",
+    "href": "research/papers/gi-bill.html#citation",
+    "title": "The G.I. Bill and Vocational Training",
+    "section": "Citation",
+    "text": "Citation\nMolligo, Patrick A. “The G.I. Bill and Vocational Training.” Working paper, 2026.\n@unpublished{molligo2026gibill,\n  author = {Molligo, Patrick A.},\n  title = {The G.I. Bill and Vocational Training},\n  year = {2026},\n  note = {Working paper},\n  url = {https://www.patrickmolligo.com/files/papers/molligo-gi-bill-vocational.pdf}\n}\nDownload BibTeX{.paper-button download}"
+  },
+  {
+    "objectID": "teaching/courses/econ-105.html#overview",
+    "href": "teaching/courses/econ-105.html#overview",
+    "title": "ECON 105: Introduction to Mathematical Economics",
+    "section": "Overview",
+    "text": "Overview\nThis course covers the essential mathematical and computing skills needed to study modern economics. It reviews differential and integral calculus—including derivatives, optimization, and integration—as well as introductory data analysis in Excel and R."
+  },
+  {
+    "objectID": "teaching/courses/econ-105.html#selected-teaching-materials",
+    "href": "teaching/courses/econ-105.html#selected-teaching-materials",
+    "title": "ECON 105: Introduction to Mathematical Economics",
+    "section": "Selected Teaching Materials",
+    "text": "Selected Teaching Materials\n\nLecture slides\n\nIntroduction\nOptimization\nLagrange Multipliers\nLevel Curves\nConsumer Theory I\nConsumer Theory II\nMid-course Review\nIncome and Substitution Effects I\nIncome and Substitution Effects II\nElasticities\nProducer Theory\nCost Minimization\nProfit Maximization\n\n\n\nCoding and data analysis\n\nExcel materials\nR materials\n\n\n\nOther materials\n\nPractice problems\nCourse syllabus\n\n\nThis page contains representative materials rather than a complete course archive."
+  },
+  {
+    "objectID": "teaching/courses/econ-97.html",
+    "href": "teaching/courses/econ-97.html",
+    "title": "ECON 97: Economic Toolkit",
+    "section": "",
+    "text": "UCLA · Instructor · Spring 2026"
+  },
+  {
+    "objectID": "teaching/courses/econ-97.html#overview",
+    "href": "teaching/courses/econ-97.html#overview",
+    "title": "ECON 97: Economic Toolkit",
+    "section": "Overview",
+    "text": "Overview\nThis course covers essential mathematical and computing skills needed to study modern economics, with an emphasis on probability and statistics. Its reviews set algebra, combinatorics, probability theory, integral calculus, estimation, and other problem solving techniques used in probability and statistics. Some lessons focus on the basics of Excel and R (a statistical programming language) in order to prime you for future econometrics coursework."
+  },
+  {
+    "objectID": "teaching/courses/econ-97.html#topics",
+    "href": "teaching/courses/econ-97.html#topics",
+    "title": "ECON 97: Economic Toolkit",
+    "section": "Topics",
+    "text": "Topics\n\nMethods of enumeration Random variables Conditional probability Discrete probability distributions Expected values Binomial and Poisson distributions Continuous probability distributions Integration Multivariate probability distributions Functions of random variables Uniform distributions Normal distributions Central limit theorem Estimation Confidence intervals R coding Simulation"
+  },
+  {
+    "objectID": "teaching/courses/econ-97.html#materials",
+    "href": "teaching/courses/econ-97.html#materials",
+    "title": "ECON 97: Economic Toolkit",
+    "section": "Materials",
+    "text": "Materials\n\nSyllabus\nLecture slides\nPractice problems\nData exercises\n\nThis page contains representative materials rather than a complete course archive."
+  },
+  {
+    "objectID": "teaching/courses/econ-97.html#selected-teaching-materials",
+    "href": "teaching/courses/econ-97.html#selected-teaching-materials",
+    "title": "ECON 97: Economic Toolkit",
+    "section": "Selected Teaching Materials",
+    "text": "Selected Teaching Materials\n\nLecture slides\n\n\n\nCoding and data analysis\n\nExcel materials\nR materials\n\n\n\nOther materials\n\nPractice problems\nCourse syllabus\n\n\nThis page contains representative materials rather than a complete course archive."
   }
 ]

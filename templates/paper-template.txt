@@ -50,3 +50,19 @@ Provide a short summary of the paper’s results.
 ## Suggested citation
 
 Molligo, Patrick A. “PAPER TITLE.” Working paper, 2026.
+
+## Citation
+
+Molligo, Patrick A. “PAPER TITLE.” Working paper, YEAR.
+
+```bibtex
+@unpublished{CITATIONKEY,
+  author = {Molligo, Patrick A.},
+  title = {PAPER TITLE},
+  year = {YEAR},
+  note = {Working paper},
+  url = {PAPER-URL}
+}
+```
+
+[Download BibTeX](../../files/citations/CITATION-FILENAME.bib){.paper-button download}

@@ -13,4 +13,4 @@ listing:
   feed: false
 ---
 
-I teach courses in economics, probability, statistics, and data analysis.
+I have taught courses in basic and intermediate microeconomics, probability and statistics, econometrics, coding and data analysis, and mathematics. No matter the subject, I make an effort to include empirical applications and coding tutorials to help students develop practical skills they can use in their own research and future careers.
