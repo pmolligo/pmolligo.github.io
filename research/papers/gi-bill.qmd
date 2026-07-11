@@ -3,7 +3,7 @@ title: "The G.I. Bill and Vocational Training"
 
 status: "Working Paper"
 year: 2026
-order: 1
+order: 2
 
 description: >
   This paper studies how the educational provisions of the World War II

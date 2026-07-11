@@ -3,7 +3,7 @@ title: "The Economic Effects Of Trade Policy Uncertainty"
 
 status: "Published"
 year: 2020
-order: 2
+order: 1
 
 description: >
   This paper uses a novel measure of trade policy uncertainty (TPU) to study the effects of unexpected changes in policy on the U.S. economy. The paper finds that increases in TPU reduce business investment and economic activity.
