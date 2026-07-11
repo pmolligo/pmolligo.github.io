@@ -11,7 +11,7 @@
     "href": "research/paper-listing.ejs.html",
     "title": "Patrick A. Molligo",
     "section": "",
-    "text": "&lt;% for (const item of items) { %&gt;\n\n  \n\n    \n      &lt;% if (item.status) { %&gt;\n        &lt;%- item.status %&gt;\n      &lt;% } %&gt;\n\n      &lt;% if (item.year) { %&gt;\n        &lt;%- item.year %&gt;\n      &lt;% } %&gt;\n    \n\n    \n      &lt;%- item.title %&gt;\n    \n\n    &lt;% if (item.coauthors) { %&gt;\n      \n        With &lt;%= item.coauthors %&gt;\n      \n    &lt;% } %&gt;\n\n    &lt;% if (item.venue) { %&gt;\n      &lt;%= item.venue %&gt;\n    &lt;% } %&gt;\n\n    &lt;% if (item.description) { %&gt;\n      &lt;%= item.description %&gt;\n    &lt;% } %&gt;\n\n    \n\n      \n        Details\n      \n\n      &lt;% if (item.pdf) { %&gt;\n        \n          PDF\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.slides) { %&gt;\n        \n          Slides\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.appendix) { %&gt;\n        \n          Appendix\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.code) { %&gt;\n        \n          Code\n        \n      &lt;% } %&gt;\n\n    \n\n    &lt;% if (item.categories && item.categories.length &gt; 0) { %&gt;\n      \n        &lt;% for (const category of item.categories) { %&gt;\n          &lt;%- category %&gt;\n        &lt;% } %&gt;\n      \n    &lt;% } %&gt;\n\n  \n\n&lt;% } %&gt;"
+    "text": "&lt;% for (const item of items) { %&gt;\n\n  \n\n    \n      &lt;% if (item.status) { %&gt;\n        &lt;%- item.status %&gt;\n      &lt;% } %&gt;\n\n      &lt;% if (item.year) { %&gt;\n        &lt;%- item.year %&gt;\n      &lt;% } %&gt;\n    \n\n    \n      &lt;%- item.title %&gt;\n    \n\n    &lt;% if (item.coauthors) { %&gt;\n      \n        With &lt;%= item.coauthors %&gt;\n      \n    &lt;% } %&gt;\n\n    &lt;% if (item.venue) { %&gt;\n      &lt;%= item.venue %&gt;\n    &lt;% } %&gt;\n\n    &lt;% if (item.summary) { %&gt;\n      &lt;%= item.summary %&gt;\n    &lt;% } %&gt;\n\n    \n\n      \n        Details\n      \n\n      &lt;% if (item.pdf) { %&gt;\n        \n          PDF\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.slides) { %&gt;\n        \n          Slides\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.appendix) { %&gt;\n        \n          Appendix\n        \n      &lt;% } %&gt;\n\n      &lt;% if (item.code) { %&gt;\n        \n          Code\n        \n      &lt;% } %&gt;\n\n    \n\n    &lt;% if (item.categories && item.categories.length &gt; 0) { %&gt;\n      \n        &lt;% for (const category of item.categories) { %&gt;\n          &lt;%- category %&gt;\n        &lt;% } %&gt;\n      \n    &lt;% } %&gt;\n\n  \n\n&lt;% } %&gt;"
   },
   {
     "objectID": "research/papers/tpu.html",
@@ -33,6 +33,13 @@
     "title": "The Economic Effects Of Trade Policy Uncertainty",
     "section": "Code and Data",
     "text": "Code and Data\nThe code and data used in this paper are available at https://www.matteoiacoviello.com/tpu.htm"
+  },
+  {
+    "objectID": "research/papers/tpu.html#citation",
+    "href": "research/papers/tpu.html#citation",
+    "title": "The Economic Effects Of Trade Policy Uncertainty",
+    "section": "Citation",
+    "text": "Citation\nCaldara, D., Iacoviello, M., Molligo, P., Prestipino, A., & Raffo, A. (2020). “The Economic Effects of Trade Policy Uncertainty.” Journal of Monetary Economics, 109, 38-59.\n@article{caldara2020economic,\n  title={The economic effects of trade policy uncertainty},\n  author={Caldara, Dario and Iacoviello, Matteo and Molligo, Patrick and Prestipino, Andrea and Raffo, Andrea},\n  journal={Journal of Monetary Economics},\n  volume={109},\n  pages={38--59},\n  year={2020},\n  publisher={Elsevier}\n}"
   },
   {
     "objectID": "blog/index.html",
@@ -214,7 +221,7 @@
     "href": "research/papers/gi-bill.html#citation",
     "title": "The G.I. Bill and Vocational Training",
     "section": "Citation",
-    "text": "Citation\nMolligo, Patrick “The G.I. Bill and Vocational Training.” Working paper, 2026.\n@unpublished{molligo2026gibill,\n  author = {Molligo, Patrick},\n  title = {The G.I. Bill and Vocational Training},\n  year = {2026},\n  note = {Working paper}\n}"
+    "text": "Citation\nMolligo, Patrick (2026). “The G.I. Bill and Vocational Training.” Working paper.\n@unpublished{molligo2026gibill,\n  author = {Molligo, Patrick},\n  title = {The G.I. Bill and Vocational Training},\n  year = {2026},\n  note = {Working paper}\n}"
   },
   {
     "objectID": "research/index.html",
