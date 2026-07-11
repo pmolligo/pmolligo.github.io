@@ -25,7 +25,7 @@ Ctrl + C
 
 ## Publish
 
-Simply push to GitHub.
+Push to GitHub.
 
 ```bash
 git add .
@@ -33,7 +33,7 @@ git commit -m "Describe changes"
 git push
 ```
 
-GitHub Actions automatically builds and deploys the website.
+Automatically builds and deploys the website.
 
 ---
 
@@ -54,6 +54,16 @@ blog/
 files/
     molligo-cv.pdf
     papers/
+    teaching/
+        econ105/
+            slides
+            coding
+            exercises
+        econ97/
+            slides
+            coding
+            exercises
+    citations/        
 
 images/
 
@@ -150,12 +160,3 @@ The post automatically appears on the Blog page.
 | `README.md` | Project documentation |
 
 ---
-
-## Future improvements
-
-- Better publication metadata
-- Presentation page
-- Software & Data page
-- Google Scholar integration
-- ORCID
-- Search
