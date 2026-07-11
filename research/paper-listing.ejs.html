@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Patrick A. Molligo</title>
+<title>paper-listing.ejs – Patrick A. Molligo</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-eb4d22d83e4ba62626cc52b5df34894d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-eb4d22d83e4ba62626cc52b5df34894d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,17 +74,17 @@ ul.task-list li input[type="checkbox"] {
 <script defer="" src="script.js"></script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed home quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Patrick A. Molligo</span>
     </a>
   </div>
@@ -95,15 +95,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research/index.html"> 
+    <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./files/molligo-cv.pdf"> 
+    <a class="nav-link" href="../files/molligo-cv.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -114,35 +114,92 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Patrick A. Molligo</h1></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div class="home-hero">
-<section id="patrick-a.-molligo" class="level1 home-intro">
+<div class="paper-list">
+&lt;% for (const item of items) { %&gt;
 
-<p>Applied microeconomist specializing in labor economics and economic history.</p>
-<p>I am a Visiting Assistant Professor of Economics at Penn State University (Fall 2026–Spring 2028).</p>
-<p>I received my Ph.D.&nbsp;in Economics at UCLA in June 2026.</p>
-<!-- <div class="home-fields">
-  Labor Economics · Economic History · Economics of Education
-</div> -->
-<div class="home-links">
-<p><a href="https://scholar.google.com/citations?user=etF9XScAAAAJ" target="_blank" rel="noopener"> <i class="bi bi-mortarboard-fill"></i> Scholar </a></p>
-<p><a href="https://github.com/pmolligo" target="_blank" rel="noopener"> <i class="bi bi-github"></i> GitHub </a></p>
-<p><a href="https://www.linkedin.com/in/patrick-molligo" target="_blank" rel="noopener"> <i class="bi bi-linkedin"></i> LinkedIn </a></p>
-<p><a href="mailto:pmolligo@gmail.com"> <i class="bi bi-envelope-fill"></i> Email </a></p>
-</div>
-</section>
-<div class="home-photo">
-<p><img src="images/headshot.jpg" class="img-fluid" alt="Portrait of Patrick A. Molligo"></p>
-</div>
+  <article class="paper-card">
+
+    <div class="paper-card-header">
+      &lt;% if (item.status) { %&gt;
+        <span class="paper-status">&lt;%- item.status %&gt;</span>
+      &lt;% } %&gt;
+
+      &lt;% if (item.year) { %&gt;
+        <span class="paper-year">&lt;%- item.year %&gt;</span>
+      &lt;% } %&gt;
+    </div>
+
+    <h2 class="paper-title anchored">
+      <a href="<%- item.path %>">&lt;%- item.title %&gt;</a>
+    </h2>
+
+    &lt;% if (item.coauthors) { %&gt;
+      <p class="paper-coauthors">
+        With &lt;%= item.coauthors %&gt;
+      </p>
+    &lt;% } %&gt;
+
+    &lt;% if (item.venue) { %&gt;
+      <p class="paper-venue">&lt;%= item.venue %&gt;</p>
+    &lt;% } %&gt;
+
+    &lt;% if (item.description) { %&gt;
+      <p class="paper-description">&lt;%= item.description %&gt;</p>
+    &lt;% } %&gt;
+
+    <div class="paper-links">
+
+      <a class="paper-button paper-button-primary" href="<%- item.path %>">
+        Details
+      </a>
+
+      &lt;% if (item.pdf) { %&gt;
+        <a class="paper-button" href="<%- item.pdf %>" target="_blank" rel="noopener">
+          PDF
+        </a>
+      &lt;% } %&gt;
+
+      &lt;% if (item.slides) { %&gt;
+        <a class="paper-button" href="<%- item.slides %>" target="_blank" rel="noopener">
+          Slides
+        </a>
+      &lt;% } %&gt;
+
+      &lt;% if (item.appendix) { %&gt;
+        <a class="paper-button" href="<%- item.appendix %>" target="_blank" rel="noopener">
+          Appendix
+        </a>
+      &lt;% } %&gt;
+
+      &lt;% if (item.code) { %&gt;
+        <a class="paper-button" href="<%- item.code %>" target="_blank" rel="noopener">
+          Code
+        </a>
+      &lt;% } %&gt;
+
+    </div>
+
+    &lt;% if (item.categories &amp;&amp; item.categories.length &gt; 0) { %&gt;
+      <div class="paper-topics">
+        &lt;% for (const category of item.categories) { %&gt;
+          <span class="paper-topic">&lt;%- category %&gt;</span>
+        &lt;% } %&gt;
+      </div>
+    &lt;% } %&gt;
+
+  </article>
+
+&lt;% } %&gt;
 </div>
 
 
@@ -571,5 +628,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
