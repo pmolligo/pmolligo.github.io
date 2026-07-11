@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/teaching/index.html",
-    "items": [
-      "/teaching/courses/econ-105.html"
-    ]
-  },
-  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/posts/first-post.html"
+    ]
+  },
+  {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/courses/econ-105.html"
     ]
   },
   {
