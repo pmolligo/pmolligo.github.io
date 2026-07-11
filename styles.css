@@ -436,57 +436,82 @@ h6  {
 
 
 /* --------------------------------------------------
-   Homepage hero
+   Homepage
 -------------------------------------------------- */
+
+body.home main {
+  max-width: 1080px;
+}
+
+body.home h1 {
+  max-width: 980px;
+  margin: 2.25rem auto 1.75rem;
+  padding: 0 1.5rem;
+  font-size: 2.35rem;
+  font-weight: 650;
+  line-height: 1.1;
+}
 
 .home-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 150px;
+  grid-template-columns: minmax(0, 720px) 180px;
+  justify-content: center;
   align-items: start;
   gap: 2rem;
-  max-width: 950px;
-  margin: 3rem auto 0;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 .home-intro {
-  max-width: 660px;
-}
-
-.home-intro h1 {
-    font-size: 2.5rem;
-    font-weight: 650;
+  width: 100%;
+  max-width: 720px;
 }
 
 .home-intro p {
+  max-width: 680px;
+  margin: 0 0 1.35rem;
   font-size: 1.08rem;
-  line-height: 1.7;
-  margin-bottom: 1.4rem;
+  line-height: 1.68;
+}
+
+.home-intro p:first-child {
+  font-size: 1.12rem;
+}
+
+.home-photo {
+  align-self: start;
+  margin-top: -0.4rem;
+  padding: 0.15rem 0 0;
+}
+
+.home-photo p {
+  margin: 0;
 }
 
 .home-photo img {
   display: block;
-  width: 150px;
+  width: 180px;
   height: auto;
+  margin: 0;
   border-radius: 6px;
   object-fit: cover;
-}
-
-.home-photo {
-    padding-top: 1rem;
 }
 
 .home-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.6rem;
-  margin-top: 1.5rem;
+  gap: 1.45rem;
+  margin-top: 1.55rem;
 }
 
 .home-links a {
   color: var(--bs-secondary-color);
-  text-decoration: none;
+  font-size: 0.98rem;
   font-weight: 500;
-  transition: color .15s ease;
+  text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 .home-links a:hover {
@@ -497,19 +522,10 @@ h6  {
   margin-right: 0.35rem;
 }
 
-.home-fields {
-  margin-top: 0.4rem;
-  color: #6c757d;
-  font-size: 0.92rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .home-hero {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+    max-width: 720px;
   }
 
   .home-photo {
@@ -520,9 +536,7 @@ h6  {
     width: 130px;
   }
 
-  .home-intro h1 {
-    font-size: 2.2rem;
+  body.home h1 {
+    max-width: 720px;
   }
 }
-
-
